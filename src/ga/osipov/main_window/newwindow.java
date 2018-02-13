@@ -163,6 +163,65 @@ public class newwindow {
 	private JTextField textField_141;
 	private JTextField textField_142;
 	private JTextField textField_143;
+	private JTextField textField_144;
+	private JTextField textField_145;
+	private JTextField textField_146;
+	private JTextField textField_147;
+	private JTextField textField_148;
+	private JTextField textField_149;
+	private JTextField textField_150;
+	private JTextField textField_151;
+	private JTextField textField_152;
+	private JTextField textField_153;
+	private JTextField textField_154;
+	private JTextField textField_155;
+	private JTextField textField_156;
+	private JTextField textField_157;
+	private JTextField textField_158;
+	private JTextField textField_159;
+	private JTextField textField_160;
+	private JTextField textField_161;
+	private JTextField textField_162;
+	private JTextField textField_163;
+	private JTextField textField_164;
+	private JTextField textField_165;
+	private JTextField textField_166;
+	private JTextField textField_167;
+	private JTextField textField_168;
+	private JTextField textField_169;
+	private JTextField textField_170;
+	private JTextField textField_171;
+	private JTextField textField_172;
+	private JTextField textField_173;
+	private JTextField textField_174;
+	private JTextField textField_175;
+	private JTextField textField_176;
+	private JTextField textField_177;
+	private JTextField textField_178;
+	private JTextField textField_179;
+	private JTextField textField_180;
+	private JTextField textField_181;
+	private JTextField textField_182;
+	private JTextField textField_183;
+	private JTextField textField_184;
+	private JTextField textField_185;
+	private JTextField textField_186;
+	private JTextField textField_187;
+	private JTextField textField_188;
+	private JTextField textField_189;
+	private JTextField textField_190;
+	private JTextField textField_191;
+	private JTextField textField_192;
+	private JTextField textField_193;
+	private JTextField textField_194;
+	private JTextField textField_195;
+	private JTextField textField_196;
+	private JTextField textField_197;
+	private JTextField textField_198;
+	private JTextField textField_199;
+	private JTextField textField_200;
+	private JTextField textField_201;
+	private JTextField textField_202;
 
 	/**
 	 * Launch the application.
@@ -2526,6 +2585,720 @@ public class newwindow {
 		panel_4.add(textField_109);
 		textField_109.setColumns(10);
 		
+		JPanel panel_6 = new JPanel();
+		tabbedPane.addTab("Доступ", null, panel_6, null);
+		SpringLayout sl_panel_6 = new SpringLayout();
+		panel_6.setLayout(sl_panel_6);
+		
+		JLabel label_156 = new JLabel("\u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E\u0431 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u0438 \u0434\u043E\u0441\u0442\u0443\u043F\u0430 (\u043F\u0440\u043E\u0445\u043E\u0434\u0430 \u0438\u043B\u0438 \u043F\u0440\u043E\u0435\u0437\u0434\u0430 \u043E\u0442 \u0437\u0435\u043C\u0435\u043B\u044C \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F, \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0445 \u0443\u0447\u0430\u0441\u0442\u043A\u043E\u0432 \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F, \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F) \u043A \u043E\u0431\u0440\u0430\u0437\u0443\u0435\u043C\u044B\u043C \u0438\u043B\u0438 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u043D\u044B\u043C \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u043C \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_6.putConstraint(SpringLayout.NORTH, label_156, 20, SpringLayout.NORTH, panel_6);
+		sl_panel_6.putConstraint(SpringLayout.WEST, label_156, 10, SpringLayout.WEST, panel_6);
+		sl_panel_6.putConstraint(SpringLayout.EAST, label_156, 1023, SpringLayout.WEST, panel_6);
+		panel_6.add(label_156);
+		
+		JLabel label_157 = new JLabel("! \u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0438\u043B\u0438 \u043E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430, \u0434\u043B\u044F \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u0434\u043E\u0441\u0442\u0443\u043F");
+		sl_panel_6.putConstraint(SpringLayout.NORTH, label_157, 16, SpringLayout.SOUTH, label_156);
+		sl_panel_6.putConstraint(SpringLayout.WEST, label_157, 10, SpringLayout.WEST, panel_6);
+		panel_6.add(label_157);
+		
+		textField_136 = new JTextField();
+		sl_panel_6.putConstraint(SpringLayout.NORTH, textField_136, 10, SpringLayout.SOUTH, label_156);
+		sl_panel_6.putConstraint(SpringLayout.WEST, textField_136, 38, SpringLayout.EAST, label_157);
+		sl_panel_6.putConstraint(SpringLayout.EAST, textField_136, 436, SpringLayout.EAST, label_157);
+		panel_6.add(textField_136);
+		textField_136.setColumns(10);
+		
+		JLabel label_158 = new JLabel("! \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0445 \u0443\u0447\u0430\u0441\u0442\u043A\u0430\u0445 (\u0437\u0435\u043C\u043B\u044F\u0445 \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F, \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F), \u043F\u043E\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043E\u043C \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u0435\u0442:");
+		sl_panel_6.putConstraint(SpringLayout.NORTH, label_158, 23, SpringLayout.SOUTH, label_157);
+		sl_panel_6.putConstraint(SpringLayout.WEST, label_158, 10, SpringLayout.WEST, panel_6);
+		panel_6.add(label_158);
+		
+		textField_137 = new JTextField();
+		sl_panel_6.putConstraint(SpringLayout.NORTH, textField_137, 17, SpringLayout.SOUTH, textField_136);
+		sl_panel_6.putConstraint(SpringLayout.WEST, textField_137, 6, SpringLayout.EAST, label_158);
+		sl_panel_6.putConstraint(SpringLayout.EAST, textField_137, 332, SpringLayout.EAST, label_158);
+		panel_6.add(textField_137);
+		textField_137.setColumns(10);
+		
+		JLabel label_159 = new JLabel("* \u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B - \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u0438\u044F \u0434\u043B\u044F \u0432\u043D\u0435\u0441\u0435\u043D\u0438\u044F \u0441\u0432\u0435\u0434\u0435\u043D\u0438\u0439");
+		sl_panel_6.putConstraint(SpringLayout.NORTH, label_159, 27, SpringLayout.SOUTH, label_158);
+		sl_panel_6.putConstraint(SpringLayout.WEST, label_159, 0, SpringLayout.WEST, label_156);
+		panel_6.add(label_159);
+		
+		textField_138 = new JTextField();
+		sl_panel_6.putConstraint(SpringLayout.NORTH, textField_138, 21, SpringLayout.SOUTH, label_158);
+		sl_panel_6.putConstraint(SpringLayout.WEST, textField_138, 24, SpringLayout.EAST, label_159);
+		sl_panel_6.putConstraint(SpringLayout.EAST, textField_138, 468, SpringLayout.EAST, label_159);
+		panel_6.add(textField_138);
+		textField_138.setColumns(10);
+		
+		JPanel panel_8 = new JPanel();
+		tabbedPane.addTab("Части", null, panel_8, null);
+		SpringLayout sl_panel_8 = new SpringLayout();
+		panel_8.setLayout(sl_panel_8);
+		
+		JLabel label_197 = new JLabel("\u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E\u0431 \u043E\u0431\u0440\u0430\u0437\u0443\u0435\u043C\u044B\u0445 \u0447\u0430\u0441\u0442\u044F\u0445 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_197, 10, SpringLayout.NORTH, panel_8);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_197, 10, SpringLayout.WEST, panel_8);
+		panel_8.add(label_197);
+		
+		JLabel label_198 = new JLabel("!\u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_198, 6, SpringLayout.SOUTH, label_197);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_198, 0, SpringLayout.WEST, label_197);
+		panel_8.add(label_198);
+		
+		textField_168 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_168, 6, SpringLayout.SOUTH, label_197);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_168, 19, SpringLayout.EAST, label_198);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_168, 350, SpringLayout.EAST, label_198);
+		panel_8.add(textField_168);
+		textField_168.setColumns(10);
+		
+		JLabel label_199 = new JLabel("1. \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0438 \u0433\u0440\u0430\u043D\u0438\u0446 \u043E\u0431\u0440\u0430\u0437\u0443\u0435\u043C\u043E\u0439 \u0447\u0430\u0441\u0442\u0438 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_199, 19, SpringLayout.SOUTH, label_198);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_199, 0, SpringLayout.WEST, label_197);
+		panel_8.add(label_199);
+		
+		JLabel label_200 = new JLabel("\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0447\u0430\u0441\u0442\u0438");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_200, 8, SpringLayout.SOUTH, label_199);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_200, 0, SpringLayout.WEST, label_197);
+		panel_8.add(label_200);
+		
+		textField_169 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_169, 6, SpringLayout.SOUTH, label_199);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_169, 26, SpringLayout.EAST, label_200);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_169, 392, SpringLayout.EAST, label_200);
+		panel_8.add(textField_169);
+		textField_169.setColumns(10);
+		
+		JLabel lblNewLabel_10 = new JLabel("<html>!*Площадь части земельного участка +- величина<br>погрешности определения площади (Р+-ДельтаР),м2");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, lblNewLabel_10, 6, SpringLayout.SOUTH, label_200);
+		sl_panel_8.putConstraint(SpringLayout.WEST, lblNewLabel_10, 10, SpringLayout.WEST, panel_8);
+		sl_panel_8.putConstraint(SpringLayout.EAST, lblNewLabel_10, 12, SpringLayout.EAST, label_197);
+		panel_8.add(lblNewLabel_10);
+		
+		textField_170 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_170, 10, SpringLayout.SOUTH, textField_169);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_170, 7, SpringLayout.EAST, lblNewLabel_10);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_170, 413, SpringLayout.EAST, lblNewLabel_10);
+		panel_8.add(textField_170);
+		textField_170.setColumns(10);
+		
+		JLabel label_201 = new JLabel("!*\u0425\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0430 \u0447\u0430\u0441\u0442\u0438");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_201, 6, SpringLayout.SOUTH, lblNewLabel_10);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_201, 0, SpringLayout.WEST, label_197);
+		panel_8.add(label_201);
+		
+		textField_171 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_171, 6, SpringLayout.SOUTH, lblNewLabel_10);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_171, 26, SpringLayout.EAST, label_201);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_171, 168, SpringLayout.EAST, label_201);
+		panel_8.add(textField_171);
+		textField_171.setColumns(10);
+		
+		JLabel label_202 = new JLabel("\u0421\u043E\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435 \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u044F (\u043E\u0431\u0440\u0435\u043C\u0435\u043D\u0435\u043D\u0438\u044F) \u043F\u0440\u0430\u0432\u0430");
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_202, 17, SpringLayout.EAST, textField_171);
+		sl_panel_8.putConstraint(SpringLayout.SOUTH, label_202, 0, SpringLayout.SOUTH, textField_171);
+		panel_8.add(label_202);
+		
+		textField_172 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_172, 6, SpringLayout.EAST, label_202);
+		sl_panel_8.putConstraint(SpringLayout.SOUTH, textField_172, 0, SpringLayout.SOUTH, textField_171);
+		panel_8.add(textField_172);
+		textField_172.setColumns(10);
+		
+		JLabel label_203 = new JLabel("!\u0412\u0438\u0434 \u043E\u0431\u0440\u0435\u043C\u0435\u043D\u0435\u043D\u0438\u044F");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_203, 0, SpringLayout.NORTH, label_202);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_203, 25, SpringLayout.EAST, textField_172);
+		panel_8.add(label_203);
+		
+		JComboBox comboBox_17 = new JComboBox();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, comboBox_17, 0, SpringLayout.NORTH, label_201);
+		sl_panel_8.putConstraint(SpringLayout.WEST, comboBox_17, 18, SpringLayout.EAST, label_203);
+		panel_8.add(comboBox_17);
+		
+		JLabel label_204 = new JLabel("\u041E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u0438\u0435 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u043E \u0432 \u043F\u043E\u043B\u044C\u0437\u0443");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_204, 10, SpringLayout.SOUTH, label_201);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_204, 10, SpringLayout.WEST, panel_8);
+		panel_8.add(label_204);
+		
+		textField_173 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_173, 6, SpringLayout.SOUTH, textField_171);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_173, 16, SpringLayout.EAST, label_204);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_173, 147, SpringLayout.EAST, label_204);
+		panel_8.add(textField_173);
+		textField_173.setColumns(10);
+		
+		JLabel label_205 = new JLabel("!\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442 - \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u0434\u043B\u044F \u0432\u043D\u0435\u0441\u0435\u043D\u0438\u044F \u0441\u0432\u0435\u0434\u0435\u043D\u0438\u0439");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_205, 6, SpringLayout.SOUTH, label_202);
+		panel_8.add(label_205);
+		
+		textField_174 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_174, 636, SpringLayout.WEST, panel_8);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_174, -230, SpringLayout.EAST, panel_8);
+		sl_panel_8.putConstraint(SpringLayout.EAST, label_205, -28, SpringLayout.WEST, textField_174);
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_174, -3, SpringLayout.NORTH, label_204);
+		panel_8.add(textField_174);
+		textField_174.setColumns(10);
+		
+		JLabel label_206 = new JLabel("!*\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_206, 23, SpringLayout.SOUTH, label_204);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_206, 10, SpringLayout.WEST, panel_8);
+		panel_8.add(label_206);
+		
+		JComboBox comboBox_18 = new JComboBox(SysCoord);
+		comboBox_18.setEnabled(false);
+		sl_panel_8.putConstraint(SpringLayout.NORTH, comboBox_18, 0, SpringLayout.NORTH, label_206);
+		sl_panel_8.putConstraint(SpringLayout.WEST, comboBox_18, 15, SpringLayout.EAST, label_206);
+		panel_8.add(comboBox_18);
+		
+		JLabel label_207 = new JLabel("\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u0435\u043A \u0433\u0440\u0430\u043D\u0438\u0446");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_207, 6, SpringLayout.SOUTH, label_206);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_207, 0, SpringLayout.WEST, label_197);
+		panel_8.add(label_207);
+		
+		textField_175 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_175, 4, SpringLayout.SOUTH, comboBox_18);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_175, 6, SpringLayout.EAST, label_207);
+		panel_8.add(textField_175);
+		textField_175.setColumns(10);
+		
+		JLabel lblx = new JLabel("!X, \u043C");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, lblx, 7, SpringLayout.SOUTH, comboBox_18);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_175, -6, SpringLayout.WEST, lblx);
+		sl_panel_8.putConstraint(SpringLayout.EAST, lblx, 0, SpringLayout.EAST, textField_169);
+		panel_8.add(lblx);
+		
+		textField_176 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_176, 4, SpringLayout.SOUTH, comboBox_18);
+		panel_8.add(textField_176);
+		textField_176.setColumns(10);
+		
+		JLabel lbly_1 = new JLabel("!Y, \u043C");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, lbly_1, 47, SpringLayout.SOUTH, textField_174);
+		sl_panel_8.putConstraint(SpringLayout.EAST, lbly_1, 0, SpringLayout.EAST, textField_172);
+		panel_8.add(lbly_1);
+		
+		textField_177 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_177, 44, SpringLayout.SOUTH, textField_174);
+		panel_8.add(textField_177);
+		textField_177.setColumns(10);
+		
+		JLabel label_208 = new JLabel("\u0421\u0440\u0435\u0434\u043D\u044F\u044F \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u043E\u0433\u0440\u0435\u0448\u043D\u043E\u0441\u0442\u044C \u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u043E\u0439 \u0442\u043E\u0447\u043A\u0438 (Mt), \u043C");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_208, 22, SpringLayout.SOUTH, label_207);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_208, 0, SpringLayout.WEST, label_197);
+		panel_8.add(label_208);
+		
+		textField_178 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_178, 30, SpringLayout.SOUTH, comboBox_18);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_178, 0, SpringLayout.EAST, textField_169);
+		panel_8.add(textField_178);
+		textField_178.setColumns(10);
+		
+		JLabel label_209 = new JLabel("\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u0437\u0430\u043A\u0440\u0435\u043F\u043B\u0435\u043D\u0438\u044F \u0442\u043E\u0447\u043A\u0438");
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_176, 0, SpringLayout.WEST, label_209);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_209, 11, SpringLayout.EAST, textField_178);
+		sl_panel_8.putConstraint(SpringLayout.SOUTH, label_209, 0, SpringLayout.SOUTH, label_208);
+		panel_8.add(label_209);
+		
+		textField_179 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_177, 0, SpringLayout.EAST, textField_179);
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_179, 0, SpringLayout.NORTH, textField_178);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_179, 9, SpringLayout.EAST, label_209);
+		panel_8.add(textField_179);
+		textField_179.setColumns(10);
+		
+		JLabel label_210 = new JLabel("2. \u041E\u0431\u0449\u0438\u0435 \u0441\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0447\u0430\u0441\u0442\u044F\u0445 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_210, 6, SpringLayout.SOUTH, label_208);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_210, 0, SpringLayout.WEST, label_197);
+		panel_8.add(label_210);
+		
+		JLabel label_211 = new JLabel("\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0447\u0430\u0441\u0442\u0438");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, label_211, 6, SpringLayout.SOUTH, label_210);
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_211, 0, SpringLayout.WEST, label_197);
+		panel_8.add(label_211);
+		
+		textField_180 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_180, 6, SpringLayout.SOUTH, label_210);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_180, 6, SpringLayout.EAST, label_211);
+		sl_panel_8.putConstraint(SpringLayout.EAST, textField_180, -11, SpringLayout.EAST, label_197);
+		panel_8.add(textField_180);
+		textField_180.setColumns(10);
+		
+		JLabel label_212 = new JLabel("\u041F\u043B\u043E\u0449\u0430\u0434\u044C(\u0420), \u043C2");
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_212, 0, SpringLayout.WEST, textField_170);
+		sl_panel_8.putConstraint(SpringLayout.SOUTH, label_212, 0, SpringLayout.SOUTH, label_211);
+		panel_8.add(label_212);
+		
+		textField_181 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.NORTH, textField_181, 0, SpringLayout.NORTH, label_211);
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_181, 6, SpringLayout.EAST, label_212);
+		panel_8.add(textField_181);
+		textField_181.setColumns(10);
+		
+		JLabel lblltkmnfhv = new JLabel("+-\u0414\u0435\u043B\u044C\u0442\u0430\u0420, \u043C2");
+		sl_panel_8.putConstraint(SpringLayout.NORTH, lblltkmnfhv, 37, SpringLayout.SOUTH, label_209);
+		sl_panel_8.putConstraint(SpringLayout.WEST, lblltkmnfhv, 0, SpringLayout.WEST, textField_176);
+		panel_8.add(lblltkmnfhv);
+		
+		textField_182 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_182, 6, SpringLayout.EAST, lblltkmnfhv);
+		sl_panel_8.putConstraint(SpringLayout.SOUTH, textField_182, 0, SpringLayout.SOUTH, textField_180);
+		panel_8.add(textField_182);
+		textField_182.setColumns(10);
+		
+		JLabel label_213 = new JLabel("\u0425\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0430 \u0447\u0430\u0441\u0442\u0438");
+		sl_panel_8.putConstraint(SpringLayout.WEST, label_213, 19, SpringLayout.EAST, textField_182);
+		sl_panel_8.putConstraint(SpringLayout.SOUTH, label_213, 0, SpringLayout.SOUTH, textField_180);
+		panel_8.add(label_213);
+		
+		textField_183 = new JTextField();
+		sl_panel_8.putConstraint(SpringLayout.WEST, textField_183, 12, SpringLayout.EAST, label_213);
+		sl_panel_8.putConstraint(SpringLayout.SOUTH, textField_183, 0, SpringLayout.SOUTH, textField_180);
+		panel_8.add(textField_183);
+		textField_183.setColumns(10);
+		
+		JPanel panel_9 = new JPanel();
+		tabbedPane.addTab("Заключение", null, panel_9, null);
+		SpringLayout sl_panel_9 = new SpringLayout();
+		panel_9.setLayout(sl_panel_9);
+		
+		JLabel label_160 = new JLabel("\u0417\u0430\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u043E\u0433\u043E \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0430");
+		sl_panel_9.putConstraint(SpringLayout.NORTH, label_160, 30, SpringLayout.NORTH, panel_9);
+		sl_panel_9.putConstraint(SpringLayout.WEST, label_160, 24, SpringLayout.WEST, panel_9);
+		panel_9.add(label_160);
+		
+		textField_139 = new JTextField();
+		textField_139.setHorizontalAlignment(SwingConstants.LEFT);
+		sl_panel_9.putConstraint(SpringLayout.NORTH, textField_139, 30, SpringLayout.NORTH, panel_9);
+		sl_panel_9.putConstraint(SpringLayout.WEST, textField_139, 21, SpringLayout.EAST, label_160);
+		sl_panel_9.putConstraint(SpringLayout.SOUTH, textField_139, 99, SpringLayout.NORTH, panel_9);
+		sl_panel_9.putConstraint(SpringLayout.EAST, textField_139, 839, SpringLayout.EAST, label_160);
+		panel_9.add(textField_139);
+		textField_139.setColumns(10);
+		
+		JLabel label_161 = new JLabel("* \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0421\u0420\u041E");
+		sl_panel_9.putConstraint(SpringLayout.NORTH, label_161, 88, SpringLayout.SOUTH, label_160);
+		sl_panel_9.putConstraint(SpringLayout.WEST, label_161, 0, SpringLayout.WEST, label_160);
+		panel_9.add(label_161);
+		
+		textField_140 = new JTextField();
+		sl_panel_9.putConstraint(SpringLayout.NORTH, textField_140, 0, SpringLayout.NORTH, label_161);
+		sl_panel_9.putConstraint(SpringLayout.WEST, textField_140, 23, SpringLayout.EAST, label_161);
+		sl_panel_9.putConstraint(SpringLayout.SOUTH, textField_140, 62, SpringLayout.NORTH, label_161);
+		sl_panel_9.putConstraint(SpringLayout.EAST, textField_140, 0, SpringLayout.EAST, textField_139);
+		panel_9.add(textField_140);
+		textField_140.setColumns(10);
+		
+		JPanel panel_7 = new JPanel();
+		tabbedPane.addTab("Уточняемые", null, panel_7, null);
+		SpringLayout sl_panel_7 = new SpringLayout();
+		panel_7.setLayout(sl_panel_7);
+		
+		JLabel label_162 = new JLabel("\u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E\u0431 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u044B\u0445 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0445 \u0443\u0447\u0430\u0441\u0442\u043A\u0430\u0445");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_162, 10, SpringLayout.NORTH, panel_7);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_162, 10, SpringLayout.WEST, panel_7);
+		panel_7.add(label_162);
+		
+		JLabel label_163 = new JLabel("\u0412\u044B\u0433\u0440\u0443\u0436\u0430\u0442\u044C \u0434\u0430\u043D\u043D\u044B\u0439 \u0440\u0430\u0437\u0434\u0435\u043B \u043A\u0430\u043A:");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_163, 53, SpringLayout.EAST, label_162);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_163, 0, SpringLayout.SOUTH, label_162);
+		panel_7.add(label_163);
+		
+		JComboBox comboBox_15 = new JComboBox(VigDanRaz);
+		sl_panel_7.putConstraint(SpringLayout.NORTH, comboBox_15, 0, SpringLayout.NORTH, label_162);
+		sl_panel_7.putConstraint(SpringLayout.WEST, comboBox_15, 20, SpringLayout.EAST, label_163);
+		panel_7.add(comboBox_15);
+		
+		JLabel label_164 = new JLabel("* \u0423\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u044B\u0439 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0439 \u0443\u0447\u0430\u0441\u0442\u043E\u043A \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0441\u043E\u0431\u043E\u0439 \u0435\u0434\u0438\u043D\u043E\u0435 \u0437\u0435\u043C\u043B\u0435\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_164, 6, SpringLayout.SOUTH, label_162);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_164, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_164);
+		
+		JLabel label_165 = new JLabel("(\u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E (\u0435\u0441\u043B\u0438 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u043D\u0435 \u0432\u044B\u0431\u0440\u0430\u043D\u043E \u0438\u0437 \u0441\u043F\u0438\u0441\u043A\u0430) \u0440\u0430\u0437\u0434\u0435\u043B \u0432\u044B\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044F \u0432 \u0432\u0435\u0442\u0432\u044C <SpecifyParcel> - \u0443\u0442\u043E\u0447\u043D\u0435\u043D\u0438\u0435 \u0433\u0440\u0430\u043D\u0438\u0446)");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_165, 6, SpringLayout.EAST, label_164);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_165, 0, SpringLayout.SOUTH, label_164);
+		panel_7.add(label_165);
+		
+		JLabel label_166 = new JLabel("*\u0423\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u044B\u0439 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0439 \u0443\u0447\u0430\u0441\u0442\u043E\u043A \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0441\u043E\u0431\u043E\u0439 \u0435\u0434\u0438\u043D\u043E\u0435 \u0437\u0435\u043C\u043B\u0435\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_166, 6, SpringLayout.SOUTH, label_164);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_166, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_166);
+		
+		JLabel label_167 = new JLabel("(\u0441\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u0432\u044B\u0433\u0440\u0443\u0436\u0430\u044E\u0442\u0441\u044F \u0432 \u0432\u0435\u0442\u0432\u044C \"\u0415\u0434\u0438\u043D\u043E\u0435 \u0437\u0435\u043C\u043B\u0435\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\" (<ExistEZParcels>)");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_167, 0, SpringLayout.WEST, label_165);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_167, 0, SpringLayout.SOUTH, label_166);
+		panel_7.add(label_167);
+		
+		JLabel label_168 = new JLabel("*\t\u0415\u0417\u041F, \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u0432\u0445\u043E\u0434\u0438\u0442 \u0434\u0430\u043D\u043D\u044B\u0439 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0439 \u0443\u0447\u0430\u0441\u0442\u043E\u043A");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_168, 6, SpringLayout.SOUTH, label_166);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_168, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_168);
+		
+		textField_141 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_141, 6, SpringLayout.SOUTH, label_166);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_141, 6, SpringLayout.EAST, label_168);
+		panel_7.add(textField_141);
+		textField_141.setColumns(10);
+		
+		JLabel label_169 = new JLabel("1. \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u043A\u0430\u0445 \u0433\u0440\u0430\u043D\u0438\u0446\u044B \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_169, 6, SpringLayout.SOUTH, label_166);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_169, 26, SpringLayout.EAST, textField_141);
+		panel_7.add(label_169);
+		
+		JLabel label_170 = new JLabel("*\t\u041D\u043E\u043C\u0435\u0440 \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u043E\u0433\u043E \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_170, 6, SpringLayout.SOUTH, label_167);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_170, 17, SpringLayout.EAST, label_169);
+		panel_7.add(label_170);
+		
+		textField_142 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_142, 0, SpringLayout.NORTH, label_168);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_142, 6, SpringLayout.EAST, label_170);
+		panel_7.add(textField_142);
+		textField_142.setColumns(10);
+		
+		JLabel label_171 = new JLabel("! \u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_171, 5, SpringLayout.SOUTH, label_168);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_171, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_171);
+		
+		JLabel label_172 = new JLabel("(\u0432\u0432\u043E\u0434\u0438\u0442\u0441\u044F \u0434\u043B\u044F \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u043E\u0433\u043E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0435 00:00:0000000)");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_172, 6, SpringLayout.SOUTH, textField_142);
+		sl_panel_7.putConstraint(SpringLayout.EAST, label_172, 0, SpringLayout.EAST, textField_142);
+		panel_7.add(label_172);
+		
+		textField_143 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_143, 6, SpringLayout.SOUTH, textField_141);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_143, 0, SpringLayout.WEST, label_163);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_143, 0, SpringLayout.EAST, label_166);
+		panel_7.add(textField_143);
+		textField_143.setColumns(10);
+		
+		JLabel label_173 = new JLabel("(\u0432\u0432\u043E\u0434\u0438\u0442\u0441\u044F \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0435 00:00:0000000:N)");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_173, 6, SpringLayout.SOUTH, label_171);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_173, 10, SpringLayout.WEST, panel_7);
+		panel_7.add(label_173);
+		
+		JLabel label_174 = new JLabel("*\u0423\u0447\u0435\u0442\u043D\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u043A\u043E\u043D\u0442\u0443\u0440\u0430 \u043C\u043D\u043E\u0433\u043E\u043A\u043E\u043D\u0442\u0443\u0440\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_174, 6, SpringLayout.SOUTH, label_173);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_174, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_174);
+		
+		textField_144 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_144, 0, SpringLayout.SOUTH, label_174);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_144, 0, SpringLayout.EAST, textField_141);
+		panel_7.add(textField_144);
+		textField_144.setColumns(10);
+		
+		JLabel label_175 = new JLabel("\u0417\u0430\u043F\u043E\u043B\u043D\u044F\u0435\u0442\u0441\u044F \u0435\u0441\u043B\u0438 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u0442\u0441\u044F \u0433\u0440\u0430\u043D\u0438\u0446\u0430 \u043C\u043D\u043E\u0433\u043E\u043A\u043E\u043D\u0442\u0443\u0440\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_175, 2, SpringLayout.SOUTH, label_174);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_175, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_175);
+		
+		JLabel label_176 = new JLabel("\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_176, 3, SpringLayout.NORTH, textField_143);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_176, 19, SpringLayout.EAST, textField_143);
+		panel_7.add(label_176);
+		
+		JLabel label_177 = new JLabel("<html>(значение выбирается из таблицы \"!Системы координат\" раздела \"Исходные\";<br>заполняется только для электронного документа, заполение обязательно)</html>");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_177, 6, SpringLayout.SOUTH, textField_143);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_177, 41, SpringLayout.EAST, textField_144);
+		sl_panel_7.putConstraint(SpringLayout.EAST, label_177, -252, SpringLayout.EAST, panel_7);
+		panel_7.add(label_177);
+		
+		JComboBox comboBox_16 = new JComboBox(SysCoord);
+		sl_panel_7.putConstraint(SpringLayout.NORTH, comboBox_16, -3, SpringLayout.NORTH, label_172);
+		sl_panel_7.putConstraint(SpringLayout.WEST, comboBox_16, 6, SpringLayout.EAST, label_176);
+		sl_panel_7.putConstraint(SpringLayout.EAST, comboBox_16, -6, SpringLayout.WEST, label_172);
+		panel_7.add(comboBox_16);
+		
+		JLabel label_178 = new JLabel("!\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u0435\u043A \u0433\u0440\u0430\u043D\u0438\u0446");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_178, 6, SpringLayout.SOUTH, label_175);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_178, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_178);
+		
+		textField_145 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_145, 6, SpringLayout.SOUTH, label_175);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_145, 6, SpringLayout.EAST, label_178);
+		panel_7.add(textField_145);
+		textField_145.setColumns(10);
+		
+		JLabel label_179 = new JLabel("\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u044B\u0445 \u0442\u043E\u0447\u0435\u043A (\u043D\u0435 \u0434\u043B\u044F \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u043E\u0432)");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_179, 6, SpringLayout.SOUTH, label_175);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_179, 6, SpringLayout.EAST, textField_145);
+		panel_7.add(label_179);
+		
+		textField_146 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_146, 9, SpringLayout.EAST, label_179);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_146, 0, SpringLayout.SOUTH, label_178);
+		panel_7.add(textField_146);
+		textField_146.setColumns(10);
+		
+		JLabel lblX_5 = new JLabel("X \u0441\u0443\u0449, \u043C");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, lblX_5, 6, SpringLayout.SOUTH, label_178);
+		sl_panel_7.putConstraint(SpringLayout.WEST, lblX_5, 0, SpringLayout.WEST, label_162);
+		panel_7.add(lblX_5);
+		
+		textField_147 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_147, 6, SpringLayout.SOUTH, label_178);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_147, 6, SpringLayout.EAST, lblX_5);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_147, -977, SpringLayout.EAST, panel_7);
+		panel_7.add(textField_147);
+		textField_147.setColumns(10);
+		
+		JLabel lblY_4 = new JLabel("Y \u0441\u0443\u0449, \u043C");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, lblY_4, 6, SpringLayout.SOUTH, label_178);
+		sl_panel_7.putConstraint(SpringLayout.WEST, lblY_4, 6, SpringLayout.EAST, textField_147);
+		panel_7.add(lblY_4);
+		
+		textField_148 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_148, 6, SpringLayout.SOUTH, label_178);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_148, 6, SpringLayout.EAST, lblY_4);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_148, -881, SpringLayout.EAST, panel_7);
+		panel_7.add(textField_148);
+		textField_148.setColumns(10);
+		
+		JLabel lblX_6 = new JLabel("X \u0443\u0442\u043E\u0447, \u043C");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, lblX_6, 6, SpringLayout.SOUTH, label_178);
+		sl_panel_7.putConstraint(SpringLayout.WEST, lblX_6, 6, SpringLayout.EAST, textField_148);
+		panel_7.add(lblX_6);
+		
+		textField_149 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_149, 0, SpringLayout.SOUTH, textField_145);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_149, 6, SpringLayout.EAST, lblX_6);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_149, 48, SpringLayout.EAST, lblX_6);
+		panel_7.add(textField_149);
+		textField_149.setColumns(10);
+		
+		JLabel lblY_5 = new JLabel("Y \u0443\u0442\u043E\u0447, \u043C");
+		sl_panel_7.putConstraint(SpringLayout.WEST, lblY_5, 0, SpringLayout.WEST, label_163);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, lblY_5, 0, SpringLayout.SOUTH, lblX_5);
+		panel_7.add(lblY_5);
+		
+		textField_150 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_150, 6, SpringLayout.SOUTH, label_179);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_150, 6, SpringLayout.EAST, lblY_5);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_150, 48, SpringLayout.EAST, lblY_5);
+		panel_7.add(textField_150);
+		textField_150.setColumns(10);
+		
+		JLabel label_180 = new JLabel("\u0421\u0440\u0435\u0434\u043D\u044F\u044F \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u043E\u0433\u0440\u0435\u0448\u043D\u043E\u0441\u0442\u044C \u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u043E\u0439 \u0442\u043E\u0447\u043A\u0438 (Mt), \u043C");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_180, 9, SpringLayout.SOUTH, label_179);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_180, 15, SpringLayout.EAST, textField_150);
+		sl_panel_7.putConstraint(SpringLayout.EAST, label_180, 121, SpringLayout.EAST, textField_146);
+		panel_7.add(label_180);
+		
+		textField_151 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_151, 0, SpringLayout.WEST, label_170);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_151, 0, SpringLayout.SOUTH, textField_147);
+		panel_7.add(textField_151);
+		textField_151.setColumns(10);
+		
+		JLabel label_181 = new JLabel("\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u0437\u0430\u043A\u0440\u0435\u043F\u043B\u0435\u043D\u0438\u044F \u0442\u043E\u0447\u043A\u0438");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_181, 20, SpringLayout.EAST, textField_146);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_181, 0, SpringLayout.SOUTH, label_178);
+		panel_7.add(label_181);
+		
+		textField_152 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_152, 0, SpringLayout.SOUTH, label_178);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_152, 0, SpringLayout.EAST, comboBox_15);
+		panel_7.add(textField_152);
+		textField_152.setColumns(10);
+		
+		JLabel label_182 = new JLabel("2. \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0447\u0430\u0441\u0442\u044F\u0445 \u0433\u0440\u0430\u043D\u0438\u0446 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_182, 6, SpringLayout.SOUTH, textField_147);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_182, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_182);
+		
+		JLabel label_183 = new JLabel("!\u041E\u0442 \u0442\u043E\u0447\u043A\u0438 (\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 \u0433\u0440\u0430\u043D\u0438\u0446)");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_183, 17, SpringLayout.EAST, label_182);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_183, 0, SpringLayout.SOUTH, label_182);
+		panel_7.add(label_183);
+		
+		textField_153 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_153, 6, SpringLayout.SOUTH, label_180);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_153, 0, SpringLayout.WEST, comboBox_16);
+		panel_7.add(textField_153);
+		textField_153.setColumns(10);
+		
+		JLabel label_184 = new JLabel("!\u0414\u043E \u0442\u043E\u0447\u043A\u0438 (\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0447\u0430\u0441\u0442\u0438 \u0433\u0440\u0430\u043D\u0438\u0446)");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_184, 6, SpringLayout.EAST, textField_153);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_184, 0, SpringLayout.SOUTH, label_182);
+		panel_7.add(label_184);
+		
+		textField_154 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_154, 6, SpringLayout.SOUTH, textField_151);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_154, 6, SpringLayout.EAST, label_184);
+		panel_7.add(textField_154);
+		textField_154.setColumns(10);
+		
+		JLabel lbls_1 = new JLabel("\u0413\u043E\u0440\u0438\u0437\u043E\u043D\u0442\u0430\u043B\u044C\u043D\u043E\u0435 \u043F\u0440\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0435 (S), \u043C");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, lbls_1, 6, SpringLayout.SOUTH, label_182);
+		sl_panel_7.putConstraint(SpringLayout.WEST, lbls_1, 0, SpringLayout.WEST, label_162);
+		panel_7.add(lbls_1);
+		
+		textField_155 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_155, 6, SpringLayout.SOUTH, label_182);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_155, 0, SpringLayout.EAST, label_168);
+		panel_7.add(textField_155);
+		textField_155.setColumns(10);
+		
+		JLabel label_185 = new JLabel("\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u043F\u0440\u043E\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u044F \u0447\u0430\u0441\u0442\u0438 \u0433\u0440\u0430\u043D\u0438\u0446");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_185, 0, SpringLayout.WEST, textField_141);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_185, 0, SpringLayout.SOUTH, lbls_1);
+		panel_7.add(label_185);
+		
+		textField_156 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_156, 6, SpringLayout.SOUTH, label_183);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_156, 0, SpringLayout.WEST, comboBox_15);
+		panel_7.add(textField_156);
+		textField_156.setColumns(10);
+		
+		JLabel label_186 = new JLabel("\u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0435 \u043D\u043E\u043C\u0435\u0440\u0430 \u0441\u043C\u0435\u0436\u043D\u044B\u0445 \u0417\u0423");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_186, 13, SpringLayout.EAST, textField_156);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_186, 0, SpringLayout.SOUTH, textField_155);
+		panel_7.add(label_186);
+		
+		textField_157 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_157, 6, SpringLayout.SOUTH, label_184);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_157, 6, SpringLayout.EAST, label_186);
+		panel_7.add(textField_157);
+		textField_157.setColumns(10);
+		
+		JLabel label_187 = new JLabel("3. \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0438 \u0433\u0440\u0430\u043D\u0438\u0446 \u0447\u0430\u0441\u0442\u0438 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u043E\u0433\u043E \u0437\u0430\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_187, 22, SpringLayout.SOUTH, lbls_1);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_187, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_187);
+		
+		JLabel label_188 = new JLabel("!\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u0435\u043A \u0433\u0440\u0430\u043D\u0438\u0446");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_188, 0, SpringLayout.NORTH, label_187);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_188, 6, SpringLayout.EAST, label_187);
+		panel_7.add(label_188);
+		
+		textField_158 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_158, 0, SpringLayout.WEST, label_184);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_158, 0, SpringLayout.SOUTH, label_187);
+		panel_7.add(textField_158);
+		textField_158.setColumns(10);
+		
+		JLabel lblxV = new JLabel("!X, \u043C");
+		sl_panel_7.putConstraint(SpringLayout.WEST, lblxV, 6, SpringLayout.EAST, textField_158);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, lblxV, 0, SpringLayout.SOUTH, label_187);
+		panel_7.add(lblxV);
+		
+		textField_159 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_159, 10, SpringLayout.SOUTH, textField_157);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_159, 14, SpringLayout.EAST, lblxV);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_159, 56, SpringLayout.EAST, lblxV);
+		panel_7.add(textField_159);
+		textField_159.setColumns(10);
+		
+		JLabel lbly = new JLabel("!Y, \u043C");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, lbly, 0, SpringLayout.NORTH, label_187);
+		sl_panel_7.putConstraint(SpringLayout.WEST, lbly, 6, SpringLayout.EAST, textField_159);
+		panel_7.add(lbly);
+		
+		textField_160 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_160, 30, SpringLayout.SOUTH, textField_154);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_160, 5, SpringLayout.EAST, lbly);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_160, 47, SpringLayout.EAST, lbly);
+		panel_7.add(textField_160);
+		textField_160.setColumns(10);
+		
+		JLabel label_189 = new JLabel("\u0421\u0440\u0435\u0434\u043D\u044F\u044F \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u043F\u043E\u0433\u0440\u0435\u0448\u043D\u043E\u0441\u0442\u044C \u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u043E\u0439 \u0442\u043E\u0447\u043A\u0438 (Mt), \u043C");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_189, 6, SpringLayout.SOUTH, label_187);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_189, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_189);
+		
+		textField_161 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_161, 6, SpringLayout.SOUTH, label_188);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_161, 0, SpringLayout.WEST, label_177);
+		panel_7.add(textField_161);
+		textField_161.setColumns(10);
+		
+		JLabel label_190 = new JLabel("\u041E\u043F\u0438\u0441\u0430\u043D\u0438\u0435 \u0437\u0430\u043A\u0440\u0435\u043F\u043B\u0435\u043D\u0438\u044F \u0442\u043E\u0447\u043A\u0438");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_190, 14, SpringLayout.EAST, textField_161);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_190, 0, SpringLayout.SOUTH, label_189);
+		panel_7.add(label_190);
+		
+		textField_162 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_162, 0, SpringLayout.SOUTH, label_189);
+		sl_panel_7.putConstraint(SpringLayout.EAST, textField_162, 0, SpringLayout.EAST, label_186);
+		panel_7.add(textField_162);
+		textField_162.setColumns(10);
+		
+		JLabel label_191 = new JLabel("5. \u041E\u0431\u0449\u0438\u0435 \u0441\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0447\u0430\u0441\u0442\u044F\u0445 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_191, 21, SpringLayout.SOUTH, label_189);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_191, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_191);
+		
+		JLabel label_192 = new JLabel("!\u0423\u0447\u0435\u0442\u043D\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0438\u043B\u0438 \u043E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0447\u0430\u0441\u0442\u0438");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_192, 6, SpringLayout.SOUTH, label_191);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_192, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_192);
+		
+		textField_163 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_163, 6, SpringLayout.EAST, label_192);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_163, 0, SpringLayout.SOUTH, label_192);
+		panel_7.add(textField_163);
+		textField_163.setColumns(10);
+		
+		JLabel label_193 = new JLabel("!\u041F\u043B\u043E\u0449\u0430\u0434\u044C (\u0420), \u043C2");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_193, 6, SpringLayout.SOUTH, label_191);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_193, 0, SpringLayout.WEST, label_179);
+		panel_7.add(label_193);
+		
+		textField_164 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_164, 0, SpringLayout.WEST, label_188);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_164, 0, SpringLayout.SOUTH, label_192);
+		panel_7.add(textField_164);
+		textField_164.setColumns(10);
+		
+		JLabel label_194 = new JLabel("+- \u0414\u0435\u043B\u044C\u0442\u0430\u0420\u0431 \u043C2");
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_194, 16, SpringLayout.EAST, textField_164);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_194, 0, SpringLayout.SOUTH, label_192);
+		panel_7.add(label_194);
+		
+		textField_165 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_165, 6, SpringLayout.EAST, label_194);
+		sl_panel_7.putConstraint(SpringLayout.SOUTH, textField_165, 0, SpringLayout.SOUTH, label_192);
+		panel_7.add(textField_165);
+		textField_165.setColumns(10);
+		
+		JLabel label_195 = new JLabel("!\u0422\u0438\u043F \u0447\u0430\u0441\u0442\u0438");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_195, 6, SpringLayout.SOUTH, label_192);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_195, 0, SpringLayout.WEST, label_162);
+		panel_7.add(label_195);
+		
+		textField_166 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_166, 6, SpringLayout.SOUTH, label_192);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_166, 6, SpringLayout.EAST, label_195);
+		panel_7.add(textField_166);
+		textField_166.setColumns(10);
+		
+		JLabel label_196 = new JLabel("!\u0425\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\u0430 \u0447\u0430\u0441\u0442\u0438");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, label_196, 0, SpringLayout.NORTH, label_195);
+		sl_panel_7.putConstraint(SpringLayout.WEST, label_196, 6, SpringLayout.EAST, textField_166);
+		panel_7.add(label_196);
+		
+		textField_167 = new JTextField();
+		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_167, 6, SpringLayout.SOUTH, textField_163);
+		sl_panel_7.putConstraint(SpringLayout.WEST, textField_167, 0, SpringLayout.WEST, textField_141);
+		panel_7.add(textField_167);
+		textField_167.setColumns(10);
+		
+		JLabel lblNewLabel_9 = new JLabel("<html>Таблица: 5. Общие сведения о частях уточняемого земельного участка<br>\r\n" + 
+				"54. Общие сведения о частях земельных участков в <...> реквизите \"5\" раздела<br>\r\n" + 
+				"\"Сведения об уточняемых земельных участках и их частях\" <...> заполняются в <br>\r\n" + 
+				"отношении существующих частей земельных участков, которые сохраняются в прежних <br>\r\n" + 
+				"либо уточняемых границах на измененных или уточняемых земельных участках, а также <br>\r\n" + 
+				"в отношении образуемых частей земельных участков. При этом погрешность определения <br>\r\n" + 
+				"площади \"+/-дельтаР, м2\" заполняется в отношении образуемых или уточняемых частей <br>\r\n" + 
+				"земельных участков в случае, если в результате такого уточнения изменилась ее площадь.</html>");
+		sl_panel_7.putConstraint(SpringLayout.NORTH, lblNewLabel_9, 23, SpringLayout.SOUTH, label_195);
+		sl_panel_7.putConstraint(SpringLayout.WEST, lblNewLabel_9, 0, SpringLayout.WEST, label_162);
+		panel_7.add(lblNewLabel_9);
+		
 		JPanel panel_2 = new JPanel();
 		tabbedPane.addTab("Исходные", null, panel_2, null);
 		SpringLayout sl_panel_2 = new SpringLayout();
@@ -2941,182 +3714,311 @@ public class newwindow {
 		panel_2.add(textField_50);
 		textField_50.setColumns(10);
 		
-		JPanel panel_6 = new JPanel();
-		tabbedPane.addTab("Доступ", null, panel_6, null);
-		SpringLayout sl_panel_6 = new SpringLayout();
-		panel_6.setLayout(sl_panel_6);
+		JPanel panel_11 = new JPanel();
+		tabbedPane.addTab("Расположение", null, panel_11, null);
+		SpringLayout sl_panel_11 = new SpringLayout();
+		panel_11.setLayout(sl_panel_11);
 		
-		JLabel label_156 = new JLabel("\u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E\u0431 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0435\u043D\u0438\u0438 \u0434\u043E\u0441\u0442\u0443\u043F\u0430 (\u043F\u0440\u043E\u0445\u043E\u0434\u0430 \u0438\u043B\u0438 \u043F\u0440\u043E\u0435\u0437\u0434\u0430 \u043E\u0442 \u0437\u0435\u043C\u0435\u043B\u044C \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F, \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0445 \u0443\u0447\u0430\u0441\u0442\u043A\u043E\u0432 \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F, \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F) \u043A \u043E\u0431\u0440\u0430\u0437\u0443\u0435\u043C\u044B\u043C \u0438\u043B\u0438 \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u043D\u044B\u043C \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u043C \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
-		sl_panel_6.putConstraint(SpringLayout.NORTH, label_156, 20, SpringLayout.NORTH, panel_6);
-		sl_panel_6.putConstraint(SpringLayout.WEST, label_156, 10, SpringLayout.WEST, panel_6);
-		sl_panel_6.putConstraint(SpringLayout.EAST, label_156, 1023, SpringLayout.WEST, panel_6);
-		panel_6.add(label_156);
+		JLabel label_238 = new JLabel("\u0421\u0445\u0435\u043C\u0430 \u0440\u0430\u0441\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0445 \u0443\u0447\u0430\u0441\u0442\u043A\u043E\u0432");
+		sl_panel_11.putConstraint(SpringLayout.NORTH, label_238, 10, SpringLayout.NORTH, panel_11);
+		sl_panel_11.putConstraint(SpringLayout.WEST, label_238, 10, SpringLayout.WEST, panel_11);
+		panel_11.add(label_238);
 		
-		JLabel label_157 = new JLabel("! \u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0438\u043B\u0438 \u043E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430, \u0434\u043B\u044F \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u0434\u043E\u0441\u0442\u0443\u043F");
-		sl_panel_6.putConstraint(SpringLayout.NORTH, label_157, 16, SpringLayout.SOUTH, label_156);
-		sl_panel_6.putConstraint(SpringLayout.WEST, label_157, 10, SpringLayout.WEST, panel_6);
-		panel_6.add(label_157);
-		
-		textField_136 = new JTextField();
-		sl_panel_6.putConstraint(SpringLayout.NORTH, textField_136, 10, SpringLayout.SOUTH, label_156);
-		sl_panel_6.putConstraint(SpringLayout.WEST, textField_136, 38, SpringLayout.EAST, label_157);
-		sl_panel_6.putConstraint(SpringLayout.EAST, textField_136, 436, SpringLayout.EAST, label_157);
-		panel_6.add(textField_136);
-		textField_136.setColumns(10);
-		
-		JLabel label_158 = new JLabel("! \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0445 \u0443\u0447\u0430\u0441\u0442\u043A\u0430\u0445 (\u0437\u0435\u043C\u043B\u044F\u0445 \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F, \u0442\u0435\u0440\u0440\u0438\u0442\u043E\u0440\u0438\u0438 \u043E\u0431\u0449\u0435\u0433\u043E \u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F), \u043F\u043E\u0441\u0440\u0435\u0434\u0441\u0442\u0432\u043E\u043C \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u0435\u0442:");
-		sl_panel_6.putConstraint(SpringLayout.NORTH, label_158, 23, SpringLayout.SOUTH, label_157);
-		sl_panel_6.putConstraint(SpringLayout.WEST, label_158, 10, SpringLayout.WEST, panel_6);
-		panel_6.add(label_158);
-		
-		textField_137 = new JTextField();
-		sl_panel_6.putConstraint(SpringLayout.NORTH, textField_137, 17, SpringLayout.SOUTH, textField_136);
-		sl_panel_6.putConstraint(SpringLayout.WEST, textField_137, 6, SpringLayout.EAST, label_158);
-		sl_panel_6.putConstraint(SpringLayout.EAST, textField_137, 332, SpringLayout.EAST, label_158);
-		panel_6.add(textField_137);
-		textField_137.setColumns(10);
-		
-		JLabel label_159 = new JLabel("* \u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B - \u043E\u0441\u043D\u043E\u0432\u0430\u043D\u0438\u044F \u0434\u043B\u044F \u0432\u043D\u0435\u0441\u0435\u043D\u0438\u044F \u0441\u0432\u0435\u0434\u0435\u043D\u0438\u0439");
-		sl_panel_6.putConstraint(SpringLayout.NORTH, label_159, 27, SpringLayout.SOUTH, label_158);
-		sl_panel_6.putConstraint(SpringLayout.WEST, label_159, 0, SpringLayout.WEST, label_156);
-		panel_6.add(label_159);
-		
-		textField_138 = new JTextField();
-		sl_panel_6.putConstraint(SpringLayout.NORTH, textField_138, 21, SpringLayout.SOUTH, label_158);
-		sl_panel_6.putConstraint(SpringLayout.WEST, textField_138, 24, SpringLayout.EAST, label_159);
-		sl_panel_6.putConstraint(SpringLayout.EAST, textField_138, 468, SpringLayout.EAST, label_159);
-		panel_6.add(textField_138);
-		textField_138.setColumns(10);
-		
-		JPanel panel_7 = new JPanel();
-		tabbedPane.addTab("Уточняемые", null, panel_7, null);
-		SpringLayout sl_panel_7 = new SpringLayout();
-		panel_7.setLayout(sl_panel_7);
-		
-		JLabel label_162 = new JLabel("\u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E\u0431 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u044B\u0445 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0445 \u0443\u0447\u0430\u0441\u0442\u043A\u0430\u0445");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_162, 10, SpringLayout.NORTH, panel_7);
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_162, 10, SpringLayout.WEST, panel_7);
-		panel_7.add(label_162);
-		
-		JLabel label_163 = new JLabel("\u0412\u044B\u0433\u0440\u0443\u0436\u0430\u0442\u044C \u0434\u0430\u043D\u043D\u044B\u0439 \u0440\u0430\u0437\u0434\u0435\u043B \u043A\u0430\u043A:");
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_163, 53, SpringLayout.EAST, label_162);
-		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_163, 0, SpringLayout.SOUTH, label_162);
-		panel_7.add(label_163);
-		
-		JComboBox comboBox_15 = new JComboBox(VigDanRaz);
-		sl_panel_7.putConstraint(SpringLayout.NORTH, comboBox_15, 0, SpringLayout.NORTH, label_162);
-		sl_panel_7.putConstraint(SpringLayout.WEST, comboBox_15, 20, SpringLayout.EAST, label_163);
-		panel_7.add(comboBox_15);
-		
-		JLabel label_164 = new JLabel("* \u0423\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u044B\u0439 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0439 \u0443\u0447\u0430\u0441\u0442\u043E\u043A \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0441\u043E\u0431\u043E\u0439 \u0435\u0434\u0438\u043D\u043E\u0435 \u0437\u0435\u043C\u043B\u0435\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_164, 6, SpringLayout.SOUTH, label_162);
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_164, 0, SpringLayout.WEST, label_162);
-		panel_7.add(label_164);
-		
-		JLabel label_165 = new JLabel("(\u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E (\u0435\u0441\u043B\u0438 \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u043D\u0435 \u0432\u044B\u0431\u0440\u0430\u043D\u043E \u0438\u0437 \u0441\u043F\u0438\u0441\u043A\u0430) \u0440\u0430\u0437\u0434\u0435\u043B \u0432\u044B\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044F \u0432 \u0432\u0435\u0442\u0432\u044C <SpecifyParcel> - \u0443\u0442\u043E\u0447\u043D\u0435\u043D\u0438\u0435 \u0433\u0440\u0430\u043D\u0438\u0446)");
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_165, 6, SpringLayout.EAST, label_164);
-		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_165, 0, SpringLayout.SOUTH, label_164);
-		panel_7.add(label_165);
-		
-		JLabel label_166 = new JLabel("*\u0423\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u044B\u0439 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0439 \u0443\u0447\u0430\u0441\u0442\u043E\u043A \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 \u0441\u043E\u0431\u043E\u0439 \u0435\u0434\u0438\u043D\u043E\u0435 \u0437\u0435\u043C\u043B\u0435\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_166, 6, SpringLayout.SOUTH, label_164);
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_166, 0, SpringLayout.WEST, label_162);
-		panel_7.add(label_166);
-		
-		JLabel label_167 = new JLabel("(\u0441\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u0432\u044B\u0433\u0440\u0443\u0436\u0430\u044E\u0442\u0441\u044F \u0432 \u0432\u0435\u0442\u0432\u044C \"\u0415\u0434\u0438\u043D\u043E\u0435 \u0437\u0435\u043C\u043B\u0435\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435\" (<ExistEZParcels>)");
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_167, 0, SpringLayout.WEST, label_165);
-		sl_panel_7.putConstraint(SpringLayout.SOUTH, label_167, 0, SpringLayout.SOUTH, label_166);
-		panel_7.add(label_167);
-		
-		JLabel label_168 = new JLabel("*\t\u0415\u0417\u041F, \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u0432\u0445\u043E\u0434\u0438\u0442 \u0434\u0430\u043D\u043D\u044B\u0439 \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u044B\u0439 \u0443\u0447\u0430\u0441\u0442\u043E\u043A");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_168, 6, SpringLayout.SOUTH, label_166);
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_168, 0, SpringLayout.WEST, label_162);
-		panel_7.add(label_168);
-		
-		textField_141 = new JTextField();
-		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_141, 6, SpringLayout.SOUTH, label_166);
-		sl_panel_7.putConstraint(SpringLayout.WEST, textField_141, 6, SpringLayout.EAST, label_168);
-		panel_7.add(textField_141);
-		textField_141.setColumns(10);
-		
-		JLabel label_169 = new JLabel("1. \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u043A\u0430\u0445 \u0433\u0440\u0430\u043D\u0438\u0446\u044B \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_169, 6, SpringLayout.SOUTH, label_166);
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_169, 26, SpringLayout.EAST, textField_141);
-		panel_7.add(label_169);
-		
-		JLabel label_170 = new JLabel("*\t\u041D\u043E\u043C\u0435\u0440 \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u043E\u0433\u043E \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_170, 6, SpringLayout.SOUTH, label_167);
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_170, 17, SpringLayout.EAST, label_169);
-		panel_7.add(label_170);
-		
-		textField_142 = new JTextField();
-		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_142, 0, SpringLayout.NORTH, label_168);
-		sl_panel_7.putConstraint(SpringLayout.WEST, textField_142, 6, SpringLayout.EAST, label_170);
-		panel_7.add(textField_142);
-		textField_142.setColumns(10);
-		
-		JLabel label_171 = new JLabel("! \u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0443\u0442\u043E\u0447\u043D\u044F\u0435\u043C\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_171, 5, SpringLayout.SOUTH, label_168);
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_171, 0, SpringLayout.WEST, label_162);
-		panel_7.add(label_171);
-		
-		JLabel label_172 = new JLabel("(\u0432\u0432\u043E\u0434\u0438\u0442\u0441\u044F \u0434\u043B\u044F \u044D\u043B\u0435\u043A\u0442\u0440\u043E\u043D\u043D\u043E\u0433\u043E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430 \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0435 00:00:0000000)");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_172, 6, SpringLayout.SOUTH, textField_142);
-		sl_panel_7.putConstraint(SpringLayout.EAST, label_172, 0, SpringLayout.EAST, textField_142);
-		panel_7.add(label_172);
-		
-		textField_143 = new JTextField();
-		sl_panel_7.putConstraint(SpringLayout.NORTH, textField_143, 6, SpringLayout.SOUTH, textField_141);
-		sl_panel_7.putConstraint(SpringLayout.WEST, textField_143, 0, SpringLayout.WEST, label_163);
-		sl_panel_7.putConstraint(SpringLayout.EAST, textField_143, 0, SpringLayout.EAST, label_166);
-		panel_7.add(textField_143);
-		textField_143.setColumns(10);
-		
-		JLabel label_173 = new JLabel("(\u0432\u0432\u043E\u0434\u0438\u0442\u0441\u044F \u043E\u0431\u044F\u0437\u0430\u0442\u0435\u043B\u044C\u043D\u043E \u0432 \u0444\u043E\u0440\u043C\u0430\u0442\u0435 00:00:0000000:N)");
-		sl_panel_7.putConstraint(SpringLayout.NORTH, label_173, 6, SpringLayout.SOUTH, label_171);
-		sl_panel_7.putConstraint(SpringLayout.WEST, label_173, 10, SpringLayout.WEST, panel_7);
-		panel_7.add(label_173);
-		
-		JPanel panel_8 = new JPanel();
-		tabbedPane.addTab("Части", null, panel_8, null);
-		
-		JPanel panel_9 = new JPanel();
-		tabbedPane.addTab("Заключение", null, panel_9, null);
-		SpringLayout sl_panel_9 = new SpringLayout();
-		panel_9.setLayout(sl_panel_9);
-		
-		JLabel label_160 = new JLabel("\u0417\u0430\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435 \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u043E\u0433\u043E \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0430");
-		sl_panel_9.putConstraint(SpringLayout.NORTH, label_160, 30, SpringLayout.NORTH, panel_9);
-		sl_panel_9.putConstraint(SpringLayout.WEST, label_160, 24, SpringLayout.WEST, panel_9);
-		panel_9.add(label_160);
-		
-		textField_139 = new JTextField();
-		textField_139.setHorizontalAlignment(SwingConstants.LEFT);
-		sl_panel_9.putConstraint(SpringLayout.NORTH, textField_139, 30, SpringLayout.NORTH, panel_9);
-		sl_panel_9.putConstraint(SpringLayout.WEST, textField_139, 21, SpringLayout.EAST, label_160);
-		sl_panel_9.putConstraint(SpringLayout.SOUTH, textField_139, 99, SpringLayout.NORTH, panel_9);
-		sl_panel_9.putConstraint(SpringLayout.EAST, textField_139, 839, SpringLayout.EAST, label_160);
-		panel_9.add(textField_139);
-		textField_139.setColumns(10);
-		
-		JLabel label_161 = new JLabel("* \u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0421\u0420\u041E");
-		sl_panel_9.putConstraint(SpringLayout.NORTH, label_161, 88, SpringLayout.SOUTH, label_160);
-		sl_panel_9.putConstraint(SpringLayout.WEST, label_161, 0, SpringLayout.WEST, label_160);
-		panel_9.add(label_161);
-		
-		textField_140 = new JTextField();
-		sl_panel_9.putConstraint(SpringLayout.NORTH, textField_140, 0, SpringLayout.NORTH, label_161);
-		sl_panel_9.putConstraint(SpringLayout.WEST, textField_140, 23, SpringLayout.EAST, label_161);
-		sl_panel_9.putConstraint(SpringLayout.SOUTH, textField_140, 62, SpringLayout.NORTH, label_161);
-		sl_panel_9.putConstraint(SpringLayout.EAST, textField_140, 0, SpringLayout.EAST, textField_139);
-		panel_9.add(textField_140);
-		textField_140.setColumns(10);
+		textField_202 = new JTextField();
+		sl_panel_11.putConstraint(SpringLayout.NORTH, textField_202, 0, SpringLayout.NORTH, label_238);
+		sl_panel_11.putConstraint(SpringLayout.WEST, textField_202, 11, SpringLayout.EAST, label_238);
+		panel_11.add(textField_202);
+		textField_202.setColumns(10);
 		
 		JPanel panel_10 = new JPanel();
 		tabbedPane.addTab("Построения", null, panel_10, null);
+		SpringLayout sl_panel_10 = new SpringLayout();
+		panel_10.setLayout(sl_panel_10);
 		
-		JPanel panel_11 = new JPanel();
-		tabbedPane.addTab("Расположение", null, panel_11, null);
+		JLabel label_214 = new JLabel("\u041A\u0430\u0442\u0430\u043B\u043E\u0433 \u043A\u043E\u043E\u0440\u0434\u0438\u043D\u0430\u0442 \u0442\u043E\u0447\u0435\u043A");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_214, 10, SpringLayout.NORTH, panel_10);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_214, 10, SpringLayout.WEST, panel_10);
+		panel_10.add(label_214);
+		
+		textField_184 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_184, 0, SpringLayout.NORTH, label_214);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_184, 6, SpringLayout.EAST, label_214);
+		panel_10.add(textField_184);
+		textField_184.setColumns(10);
+		
+		JLabel label_215 = new JLabel("\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u0435\u043A \u0433\u0440\u0430\u043D\u0438\u0446\u044B");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_215, 6, SpringLayout.SOUTH, label_214);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_215, 0, SpringLayout.WEST, label_214);
+		panel_10.add(label_215);
+		
+		textField_185 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_185, 30, SpringLayout.NORTH, panel_10);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_185, 10, SpringLayout.EAST, label_215);
+		sl_panel_10.putConstraint(SpringLayout.EAST, textField_185, 128, SpringLayout.EAST, label_215);
+		panel_10.add(textField_185);
+		textField_185.setColumns(10);
+		
+		JLabel lblX_7 = new JLabel("X, \u043C");
+		sl_panel_10.putConstraint(SpringLayout.WEST, lblX_7, 6, SpringLayout.EAST, textField_185);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, lblX_7, 0, SpringLayout.SOUTH, label_215);
+		panel_10.add(lblX_7);
+		
+		textField_186 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_186, 0, SpringLayout.NORTH, label_215);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_186, 6, SpringLayout.EAST, lblX_7);
+		panel_10.add(textField_186);
+		textField_186.setColumns(10);
+		
+		JLabel lblY_6 = new JLabel("Y, \u043C");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, lblY_6, 0, SpringLayout.NORTH, label_215);
+		sl_panel_10.putConstraint(SpringLayout.WEST, lblY_6, 6, SpringLayout.EAST, textField_186);
+		panel_10.add(lblY_6);
+		
+		textField_187 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_187, 0, SpringLayout.NORTH, label_215);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_187, 6, SpringLayout.EAST, lblY_6);
+		panel_10.add(textField_187);
+		textField_187.setColumns(10);
+		
+		JLabel label_216 = new JLabel("\u0422\u0438\u043F \u0442\u043E\u0447\u043A\u0438");
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_216, 6, SpringLayout.EAST, textField_187);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, label_216, 0, SpringLayout.SOUTH, label_215);
+		panel_10.add(label_216);
+		
+		JComboBox comboBox_19 = new JComboBox();
+		sl_panel_10.putConstraint(SpringLayout.WEST, comboBox_19, 6, SpringLayout.EAST, label_216);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, comboBox_19, 0, SpringLayout.SOUTH, textField_185);
+		panel_10.add(comboBox_19);
+		
+		JLabel label_217 = new JLabel("\u0426\u0432\u0435\u0442 \u0442\u043E\u0447\u043A\u0438");
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_217, 37, SpringLayout.EAST, comboBox_19);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, label_217, 0, SpringLayout.SOUTH, label_215);
+		panel_10.add(label_217);
+		
+		JComboBox comboBox_20 = new JComboBox();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, comboBox_20, 0, SpringLayout.NORTH, label_215);
+		sl_panel_10.putConstraint(SpringLayout.WEST, comboBox_20, 7, SpringLayout.EAST, label_217);
+		panel_10.add(comboBox_20);
+		
+		JLabel label_218 = new JLabel("\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438");
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_218, 27, SpringLayout.EAST, comboBox_20);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, label_218, 0, SpringLayout.SOUTH, label_215);
+		panel_10.add(label_218);
+		
+		JComboBox comboBox_21 = new JComboBox();
+		sl_panel_10.putConstraint(SpringLayout.WEST, comboBox_21, 13, SpringLayout.EAST, label_218);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, comboBox_21, 0, SpringLayout.SOUTH, textField_185);
+		panel_10.add(comboBox_21);
+		
+		JLabel label_219 = new JLabel("\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_219, 21, SpringLayout.SOUTH, label_215);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_219, 10, SpringLayout.WEST, panel_10);
+		panel_10.add(label_219);
+		
+		JComboBox comboBox_22 = new JComboBox();
+		sl_panel_10.putConstraint(SpringLayout.WEST, comboBox_22, 16, SpringLayout.EAST, label_219);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, comboBox_22, 0, SpringLayout.SOUTH, label_219);
+		panel_10.add(comboBox_22);
+		
+		JLabel label_220 = new JLabel("\u041A\u0443\u0440\u0441\u0438\u0432");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_220, 0, SpringLayout.NORTH, label_219);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_220, 21, SpringLayout.EAST, comboBox_22);
+		panel_10.add(label_220);
+		
+		textField_188 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_188, 6, SpringLayout.SOUTH, textField_185);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_188, 9, SpringLayout.EAST, label_220);
+		panel_10.add(textField_188);
+		textField_188.setColumns(10);
+		
+		JLabel label_221 = new JLabel("\u041F\u043E\u0434\u0447\u0435\u0440\u043A\u0438\u0432\u0430\u043D\u0438\u0435");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_221, 0, SpringLayout.NORTH, label_219);
+		sl_panel_10.putConstraint(SpringLayout.EAST, label_221, 0, SpringLayout.EAST, lblX_7);
+		panel_10.add(label_221);
+		
+		textField_189 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_189, 0, SpringLayout.WEST, textField_186);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, textField_189, 0, SpringLayout.SOUTH, label_219);
+		panel_10.add(textField_189);
+		textField_189.setColumns(10);
+		
+		JLabel label_222 = new JLabel("\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435");
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_222, 19, SpringLayout.EAST, textField_189);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, label_222, 0, SpringLayout.SOUTH, label_219);
+		panel_10.add(label_222);
+		
+		textField_190 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_190, 6, SpringLayout.EAST, label_222);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, textField_190, 0, SpringLayout.SOUTH, label_219);
+		panel_10.add(textField_190);
+		textField_190.setColumns(10);
+		
+		JLabel label_223 = new JLabel("\u0414\u043E\u043F\u043E\u0434\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u044F \u043C\u0435\u0436\u0434\u0443 \u0442\u043E\u0447\u043A\u0430\u043C\u0438");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_223, 19, SpringLayout.SOUTH, label_219);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_223, 10, SpringLayout.WEST, panel_10);
+		panel_10.add(label_223);
+		
+		JLabel label_224 = new JLabel("\u041D\u0430\u0447\u0430\u043B\u044C\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_224, 6, SpringLayout.SOUTH, label_223);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_224, 10, SpringLayout.WEST, panel_10);
+		panel_10.add(label_224);
+		
+		textField_191 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_191, 6, SpringLayout.SOUTH, label_223);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_191, 9, SpringLayout.EAST, label_224);
+		panel_10.add(textField_191);
+		textField_191.setColumns(10);
+		
+		JLabel label_225 = new JLabel("\u041A\u043E\u043D\u0435\u0447\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_225, 6, SpringLayout.SOUTH, label_223);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_225, 6, SpringLayout.EAST, textField_191);
+		panel_10.add(label_225);
+		
+		textField_192 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_192, 6, SpringLayout.EAST, label_225);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, textField_192, 0, SpringLayout.SOUTH, textField_191);
+		panel_10.add(textField_192);
+		textField_192.setColumns(10);
+		
+		JLabel label_226 = new JLabel("\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_226, 0, SpringLayout.NORTH, label_224);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_226, 10, SpringLayout.EAST, textField_192);
+		panel_10.add(label_226);
+		
+		JLabel lblNewLabel_11 = new JLabel("\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, lblNewLabel_11, 0, SpringLayout.NORTH, label_224);
+		sl_panel_10.putConstraint(SpringLayout.WEST, lblNewLabel_11, 0, SpringLayout.WEST, textField_187);
+		panel_10.add(lblNewLabel_11);
+		
+		JComboBox comboBox_23 = new JComboBox();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, comboBox_23, 0, SpringLayout.NORTH, label_224);
+		sl_panel_10.putConstraint(SpringLayout.WEST, comboBox_23, 6, SpringLayout.EAST, label_226);
+		panel_10.add(comboBox_23);
+		
+		JComboBox comboBox_24 = new JComboBox();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, comboBox_24, 0, SpringLayout.NORTH, label_224);
+		sl_panel_10.putConstraint(SpringLayout.WEST, comboBox_24, 6, SpringLayout.EAST, lblNewLabel_11);
+		panel_10.add(comboBox_24);
+		
+		JLabel label_227 = new JLabel("\u0420\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_227, 0, SpringLayout.NORTH, label_224);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_227, 23, SpringLayout.EAST, comboBox_24);
+		panel_10.add(label_227);
+		
+		textField_193 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_193, 0, SpringLayout.NORTH, label_224);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_193, 6, SpringLayout.EAST, label_227);
+		panel_10.add(textField_193);
+		textField_193.setColumns(10);
+		
+		JLabel label_228 = new JLabel("\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435");
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_228, 0, SpringLayout.WEST, comboBox_20);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, label_228, 0, SpringLayout.SOUTH, label_224);
+		panel_10.add(label_228);
+		
+		textField_194 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_194, 6, SpringLayout.EAST, label_228);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, textField_194, 0, SpringLayout.SOUTH, textField_191);
+		panel_10.add(textField_194);
+		textField_194.setColumns(10);
+		
+		JLabel label_229 = new JLabel("\u041C\u0430\u0441\u0448\u0442\u0430\u0431 1:");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_229, 6, SpringLayout.SOUTH, label_224);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_229, 0, SpringLayout.WEST, label_214);
+		panel_10.add(label_229);
+		
+		textField_195 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_195, 6, SpringLayout.SOUTH, label_224);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_195, 6, SpringLayout.EAST, label_229);
+		panel_10.add(textField_195);
+		textField_195.setColumns(10);
+		
+		JLabel label_230 = new JLabel("\u041A\u043A\u043E\u043B-\u0432\u043E \u043B\u0438\u0441\u0442\u043E\u0432 \u043F\u043E \u0433\u043E\u0440\u0438\u0437\u043E\u043D\u0442\u0430\u043B\u0438");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_230, 6, SpringLayout.SOUTH, textField_191);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_230, 0, SpringLayout.WEST, textField_188);
+		panel_10.add(label_230);
+		
+		textField_196 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_196, 6, SpringLayout.SOUTH, textField_192);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_196, 6, SpringLayout.EAST, label_230);
+		panel_10.add(textField_196);
+		textField_196.setColumns(10);
+		
+		JLabel label_231 = new JLabel("\u041A\u043E\u043B-\u0432\u043E \u043B\u0438\u0441\u0442\u043E\u0432 \u043F\u043E \u0432\u0435\u0440\u0442\u0438\u043A\u0430\u043B\u0438");
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_231, 10, SpringLayout.WEST, comboBox_23);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, label_231, 0, SpringLayout.SOUTH, textField_195);
+		panel_10.add(label_231);
+		
+		textField_197 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_197, 6, SpringLayout.EAST, label_231);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, textField_197, 0, SpringLayout.SOUTH, textField_196);
+		panel_10.add(textField_197);
+		textField_197.setColumns(10);
+		
+		JLabel label_232 = new JLabel("\u0418\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435 \u0433\u043E\u0442\u043E\u0432\u043E\u0433\u043E \u0447\u0435\u0440\u0442\u0435\u0436\u0430 \u0434\u043B\u044F \u0432\u0441\u0442\u0430\u0432\u043A\u0438 \u0432 \u043F\u0435\u0447\u0430\u0442\u043D\u044B\u0439 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_232, 6, SpringLayout.SOUTH, textField_196);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_232, 0, SpringLayout.WEST, label_214);
+		panel_10.add(label_232);
+		
+		textField_198 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_198, 6, SpringLayout.SOUTH, textField_196);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_198, 0, SpringLayout.WEST, lblX_7);
+		panel_10.add(textField_198);
+		textField_198.setColumns(10);
+		
+		JLabel label_233 = new JLabel("*\u041F\u0440\u0438\u043B\u043E\u0436\u0435\u043D\u043D\u044B\u0439 \u0444\u0430\u0439\u043B \u0441 \u043E\u0431\u0440\u0430\u0437\u043E\u043C");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_233, 0, SpringLayout.NORTH, label_232);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_233, 0, SpringLayout.WEST, lblY_6);
+		panel_10.add(label_233);
+		
+		textField_199 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_199, 6, SpringLayout.SOUTH, textField_197);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_199, 0, SpringLayout.WEST, comboBox_19);
+		panel_10.add(textField_199);
+		textField_199.setColumns(10);
+		
+		JLabel label_234 = new JLabel("\u041F\u0443\u0442\u044C \u043A \u0440\u0430\u0441\u0442\u0440\u0443 \u0434\u043B\u044F \u0440\u0435\u0433\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u0438");
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_234, 6, SpringLayout.EAST, textField_199);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, label_234, 0, SpringLayout.SOUTH, textField_198);
+		panel_10.add(label_234);
+		
+		textField_200 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_200, 6, SpringLayout.EAST, label_234);
+		sl_panel_10.putConstraint(SpringLayout.SOUTH, textField_200, 0, SpringLayout.SOUTH, textField_198);
+		panel_10.add(textField_200);
+		textField_200.setColumns(10);
+		
+		JLabel label_235 = new JLabel("\u041D\u043E\u043C\u0435\u0440 \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u043E\u0433\u043E \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_235, 14, SpringLayout.SOUTH, label_232);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_235, 10, SpringLayout.WEST, panel_10);
+		panel_10.add(label_235);
+		
+		textField_201 = new JTextField();
+		sl_panel_10.putConstraint(SpringLayout.NORTH, textField_201, 2, SpringLayout.SOUTH, textField_198);
+		sl_panel_10.putConstraint(SpringLayout.WEST, textField_201, -86, SpringLayout.EAST, textField_186);
+		sl_panel_10.putConstraint(SpringLayout.EAST, textField_201, 0, SpringLayout.EAST, textField_186);
+		panel_10.add(textField_201);
+		textField_201.setColumns(10);
+		
+		JLabel label_236 = new JLabel("\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0440\u0430\u0441\u0442\u0440 \u0438\u0437 \u043F\u0443\u0431\u043B\u0438\u0447\u043D\u043E\u0439 \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u043E\u0439 \u043A\u0430\u0440\u0442\u044B");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_236, 6, SpringLayout.SOUTH, label_235);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_236, 10, SpringLayout.WEST, panel_10);
+		panel_10.add(label_236);
+		
+		JCheckBox checkBox = new JCheckBox("");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, checkBox, 0, SpringLayout.NORTH, label_236);
+		sl_panel_10.putConstraint(SpringLayout.WEST, checkBox, 0, SpringLayout.WEST, textField_192);
+		panel_10.add(checkBox);
+		
+		JLabel label_237 = new JLabel("\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0440\u0430\u0441\u0442\u0440 - \u043A\u043E\u0441\u043C\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0441\u043D\u0438\u043C\u043E\u043A");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, label_237, 6, SpringLayout.SOUTH, label_236);
+		sl_panel_10.putConstraint(SpringLayout.WEST, label_237, 0, SpringLayout.WEST, label_214);
+		panel_10.add(label_237);
+		
+		JCheckBox checkBox_1 = new JCheckBox("");
+		sl_panel_10.putConstraint(SpringLayout.NORTH, checkBox_1, 6, SpringLayout.SOUTH, label_236);
+		sl_panel_10.putConstraint(SpringLayout.WEST, checkBox_1, 20, SpringLayout.EAST, label_237);
+		panel_10.add(checkBox_1);
 		
 		JPanel panel_12 = new JPanel();
 		tabbedPane.addTab("Чертеж", null, panel_12, null);
