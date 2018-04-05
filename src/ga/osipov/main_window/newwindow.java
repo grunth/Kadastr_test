@@ -15,6 +15,9 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import javax.swing.JCheckBox;
 import javax.swing.SwingConstants;
+import javax.swing.table.DefaultTableModel;
+import javax.swing.JTable;
+import javax.swing.JScrollPane;
 
 public class newwindow {
 
@@ -222,7 +225,9 @@ public class newwindow {
 	private JTextField textField_200;
 	private JTextField textField_201;
 	private JTextField textField_202;
-
+	private JTable table;
+	private JTable table_1;
+	
 	/**
 	 * Launch the application.
 	 */
@@ -250,6 +255,8 @@ public class newwindow {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
+		
+		
 		
 		String[] MegTitul = {
 				"образованием земельного участка путем объединения земельных участков с кадастровыми номерами _",
@@ -3730,6 +3737,47 @@ public class newwindow {
 		panel_11.add(textField_202);
 		textField_202.setColumns(10);
 		
+		JScrollPane scrollPane = new JScrollPane();
+		sl_panel_11.putConstraint(SpringLayout.NORTH, scrollPane, 9, SpringLayout.SOUTH, textField_202);
+		sl_panel_11.putConstraint(SpringLayout.WEST, scrollPane, 10, SpringLayout.WEST, panel_11);
+		sl_panel_11.putConstraint(SpringLayout.SOUTH, scrollPane, 57, SpringLayout.SOUTH, textField_202);
+		sl_panel_11.putConstraint(SpringLayout.EAST, scrollPane, 1031, SpringLayout.WEST, panel_11);
+		panel_11.add(scrollPane);
+		
+		table = new JTable();
+		table.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u0435\u043A \u0433\u0440\u0430\u043D\u0438\u0446\u044B", "X,\u043C", "Y, \u043C", "\u0422\u0438\u043F \u0442\u043E\u0447\u043A\u0438", "\u0426\u0432\u0435\u0442 \u0442\u043E\u0447\u043A\u0438", "\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438", "\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438", "\u041F\u043E\u0434\u0447\u0435\u0440\u043A\u0438\u0432\u0430\u043D\u0438\u0435", "\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435"
+			}
+		));
+		scrollPane.setViewportView(table);
+		
+		JLabel label_239 = new JLabel("\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0435 \u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u044F \u043C\u0435\u0436\u0434\u0443 \u0442\u043E\u0447\u043A\u0430\u043C\u0438");
+		sl_panel_11.putConstraint(SpringLayout.NORTH, label_239, 6, SpringLayout.SOUTH, scrollPane);
+		sl_panel_11.putConstraint(SpringLayout.WEST, label_239, 0, SpringLayout.WEST, label_238);
+		panel_11.add(label_239);
+		
+		JScrollPane scrollPane_1 = new JScrollPane();
+		sl_panel_11.putConstraint(SpringLayout.NORTH, scrollPane_1, 6, SpringLayout.SOUTH, label_239);
+		sl_panel_11.putConstraint(SpringLayout.WEST, scrollPane_1, 10, SpringLayout.WEST, panel_11);
+		sl_panel_11.putConstraint(SpringLayout.SOUTH, scrollPane_1, 54, SpringLayout.SOUTH, label_239);
+		sl_panel_11.putConstraint(SpringLayout.EAST, scrollPane_1, 963, SpringLayout.WEST, panel_11);
+		panel_11.add(scrollPane_1);
+		
+		table_1 = new JTable();
+		table_1.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041D\u0430\u0447\u0430\u043B\u044C\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430", "\u041A\u043E\u043D\u0435\u0447\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430", "\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438", "\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438", "\u0420\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u0430\u0442\u044C", "\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435"
+			}
+		));
+		scrollPane_1.setViewportView(table_1);
+		
 		JPanel panel_10 = new JPanel();
 		tabbedPane.addTab("Построения", null, panel_10, null);
 		SpringLayout sl_panel_10 = new SpringLayout();
@@ -4022,6 +4070,7 @@ public class newwindow {
 		
 		JPanel panel_12 = new JPanel();
 		tabbedPane.addTab("Чертеж", null, panel_12, null);
+		panel_12.setLayout(new SpringLayout());
 		
 		JPanel panel_13 = new JPanel();
 		tabbedPane.addTab("Абрисы", null, panel_13, null);
