@@ -3789,6 +3789,11 @@ public class newwindow {
 		panel_11.add(textField_203);
 		textField_203.setColumns(10);
 		
+		JLabel label_241 = new JLabel("\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0447\u0438\u0441\u043B\u043E, \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, 1000, 2000,10000, \u043B\u0438\u0431\u043E \u0432\u044B\u043F\u043E\u043B\u043D\u0438\u0442\u0435 \u0440\u0430\u0441\u0447\u0435\u0442.");
+		sl_panel_11.putConstraint(SpringLayout.WEST, label_241, 6, SpringLayout.EAST, textField_203);
+		sl_panel_11.putConstraint(SpringLayout.SOUTH, label_241, 0, SpringLayout.SOUTH, textField_203);
+		panel_11.add(label_241);
+		
 		JPanel panel_10 = new JPanel();
 		tabbedPane.addTab("Построения", null, panel_10, null);
 		SpringLayout sl_panel_10 = new SpringLayout();
