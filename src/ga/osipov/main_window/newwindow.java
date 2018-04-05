@@ -1,23 +1,22 @@
 package ga.osipov.main_window;
 
 import java.awt.EventQueue;
-
-import javax.swing.JFrame;
-import javax.swing.JTabbedPane;
-import java.awt.BorderLayout;
-import javax.swing.SpringLayout;
-import javax.swing.JPanel;
-import javax.swing.JTextField;
-import javax.swing.JLabel;
-import javax.swing.JComboBox;
-import javax.swing.JButton;
-import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
 import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTabbedPane;
+import javax.swing.JTable;
+import javax.swing.JTextField;
+import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableModel;
-import javax.swing.JTable;
-import javax.swing.JScrollPane;
 
 public class newwindow {
 
@@ -227,6 +226,7 @@ public class newwindow {
 	private JTextField textField_202;
 	private JTable table;
 	private JTable table_1;
+	private JTextField textField_203;
 	
 	/**
 	 * Launch the application.
@@ -3777,6 +3777,17 @@ public class newwindow {
 			}
 		));
 		scrollPane_1.setViewportView(table_1);
+		
+		JLabel label_240 = new JLabel("\u041C\u0430\u0441\u0448\u0442\u0430\u04311");
+		sl_panel_11.putConstraint(SpringLayout.NORTH, label_240, 6, SpringLayout.SOUTH, scrollPane_1);
+		sl_panel_11.putConstraint(SpringLayout.WEST, label_240, 0, SpringLayout.WEST, label_238);
+		panel_11.add(label_240);
+		
+		textField_203 = new JTextField();
+		sl_panel_11.putConstraint(SpringLayout.NORTH, textField_203, 6, SpringLayout.SOUTH, scrollPane_1);
+		sl_panel_11.putConstraint(SpringLayout.WEST, textField_203, 6, SpringLayout.EAST, label_240);
+		panel_11.add(textField_203);
+		textField_203.setColumns(10);
 		
 		JPanel panel_10 = new JPanel();
 		tabbedPane.addTab("Построения", null, panel_10, null);
