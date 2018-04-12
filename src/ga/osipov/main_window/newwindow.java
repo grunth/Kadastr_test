@@ -17,6 +17,7 @@ import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableModel;
+import javax.swing.DefaultComboBoxModel;
 
 public class newwindow {
 
@@ -232,6 +233,86 @@ public class newwindow {
 	private JTextField textField_206;
 	private JTextField textField_207;
 	private JTextField textField_208;
+	private JTextField textField_209;
+	private JTable table_2;
+	private JTable table_3;
+	private JTextField textField_210;
+	private JTextField textField_211;
+	private JTextField textField_212;
+	private JTable table_4;
+	private JTable table_5;
+	private JTextField textField_213;
+	private JTextField textField_214;
+	private JTable table_6;
+	private JTable table_7;
+	private JTable table_8;
+	private JTextField textField_215;
+	private JTextField textField_216;
+	private JTextField textField_217;
+	private JTextField textField_218;
+	private JTextField textField_219;
+	private JTextField textField_220;
+	private JTextField textField_221;
+	private JTextField textField_222;
+	private JTextField textField_223;
+	private JTextField textField_224;
+	private JTextField textField_225;
+	private JTextField textField_226;
+	private JTextField textField_227;
+	private JTextField textField_228;
+	private JTextField textField_229;
+	private JTextField textField_230;
+	private JTextField textField_231;
+	private JTextField textField_232;
+	private JTextField textField_233;
+	private JTextField textField_234;
+	private JTextField textField_235;
+	private JTextField textField_236;
+	private JTextField textField_237;
+	private JTextField textField_238;
+	private JTextField textField_239;
+	private JTextField textField_240;
+	private JTextField textField_241;
+	private JTextField textField_242;
+	private JTable table_9;
+	private JTextField textField_243;
+	private JTextField textField_244;
+	private JTextField textField_245;
+	private JTextField textField_246;
+	private JTextField textField_247;
+	private JTextField textField_248;
+	private JTextField textField_249;
+	private JTable table_10;
+	private JTable table_11;
+	private JTextField textField_250;
+	private JTable table_12;
+	private JTextField textField_251;
+	private JTable table_13;
+	private JTextField textField_252;
+	private JTextField textField_253;
+	private JTextField textField_254;
+	private JTextField textField_255;
+	private JTextField textField_256;
+	private JTable table_14;
+	private JTextField textField_257;
+	private JTextField textField_258;
+	private JTextField textField_259;
+	private JTextField textField_260;
+	private JTextField textField_261;
+	private JTextField textField_262;
+	private JTextField textField_263;
+	private JTextField textField_264;
+	private JTextField textField_265;
+	private JTextField textField_266;
+	private JTextField textField_267;
+	private JTextField textField_268;
+	private JTextField textField_269;
+	private JTextField textField_270;
+	private JTextField textField_271;
+	private JTextField textField_272;
+	private JTable table_15;
+	private JTextField textField_273;
+	private JTable table_16;
 	
 	/**
 	 * Launch the application.
@@ -2902,6 +2983,263 @@ public class newwindow {
 		panel_9.add(textField_140);
 		textField_140.setColumns(10);
 		
+		JPanel panel_15 = new JPanel();
+		tabbedPane.addTab("Извещение", null, panel_15, null);
+		SpringLayout sl_panel_15 = new SpringLayout();
+		panel_15.setLayout(sl_panel_15);
+		
+		JLabel label_268 = new JLabel("Извещение о проведении собрания о согласовании местоположения границ земельных участков");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_268, 10, SpringLayout.NORTH, panel_15);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_268, 10, SpringLayout.WEST, panel_15);
+		panel_15.add(label_268);
+		
+		JLabel label_269 = new JLabel("Кадастровый инженер");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_269, 6, SpringLayout.SOUTH, label_268);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_269, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_269);
+		
+		JLabel label_270 = new JLabel("ФИО кадастрового инженера");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_270, 6, SpringLayout.SOUTH, label_269);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_270, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_270);
+		
+		textField_216 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_216, 0, SpringLayout.NORTH, label_270);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_216, 9, SpringLayout.EAST, label_270);
+		panel_15.add(textField_216);
+		textField_216.setColumns(10);
+		
+		JLabel label_271 = new JLabel("№ квалификационного аттестата");
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_271, 19, SpringLayout.EAST, textField_216);
+		sl_panel_15.putConstraint(SpringLayout.SOUTH, label_271, 0, SpringLayout.SOUTH, label_270);
+		panel_15.add(label_271);
+		
+		textField_217 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_217, 0, SpringLayout.NORTH, label_270);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_217, 6, SpringLayout.EAST, label_271);
+		panel_15.add(textField_217);
+		textField_217.setColumns(10);
+		
+		JLabel label_272 = new JLabel("Почтовый адрес");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_272, 0, SpringLayout.NORTH, label_270);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_272, 24, SpringLayout.EAST, textField_217);
+		panel_15.add(label_272);
+		
+		textField_218 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_218, 12, SpringLayout.EAST, label_272);
+		sl_panel_15.putConstraint(SpringLayout.SOUTH, textField_218, 0, SpringLayout.SOUTH, textField_216);
+		panel_15.add(textField_218);
+		textField_218.setColumns(10);
+		
+		JLabel label_273 = new JLabel("Адрес электронной почты");
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_273, 27, SpringLayout.EAST, textField_218);
+		sl_panel_15.putConstraint(SpringLayout.SOUTH, label_273, 0, SpringLayout.SOUTH, label_270);
+		panel_15.add(label_273);
+		
+		textField_219 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_219, 6, SpringLayout.EAST, label_273);
+		sl_panel_15.putConstraint(SpringLayout.SOUTH, textField_219, 0, SpringLayout.SOUTH, label_270);
+		panel_15.add(textField_219);
+		textField_219.setColumns(10);
+		
+		JLabel label_274 = new JLabel("Контактный телефон");
+		sl_panel_15.putConstraint(SpringLayout.EAST, label_274, 0, SpringLayout.EAST, label_269);
+		panel_15.add(label_274);
+		
+		textField_220 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_220, 23, SpringLayout.EAST, label_274);
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_274, 3, SpringLayout.NORTH, textField_220);
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_220, 6, SpringLayout.SOUTH, textField_216);
+		panel_15.add(textField_220);
+		textField_220.setColumns(10);
+		
+		JLabel label_275 = new JLabel("Адресат");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_275, 19, SpringLayout.SOUTH, label_274);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_275, 10, SpringLayout.WEST, panel_15);
+		panel_15.add(label_275);
+		
+		JLabel label_276 = new JLabel("Кому");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_276, 12, SpringLayout.SOUTH, label_275);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_276, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_276);
+		
+		textField_221 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_221, -3, SpringLayout.NORTH, label_276);
+		sl_panel_15.putConstraint(SpringLayout.EAST, textField_221, 0, SpringLayout.EAST, label_270);
+		panel_15.add(textField_221);
+		textField_221.setColumns(10);
+		
+		JLabel lblNewLabel_13 = new JLabel("Куда");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, lblNewLabel_13, 0, SpringLayout.NORTH, label_276);
+		panel_15.add(lblNewLabel_13);
+		
+		textField_222 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.EAST, lblNewLabel_13, -18, SpringLayout.WEST, textField_222);
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_222, -3, SpringLayout.NORTH, label_276);
+		sl_panel_15.putConstraint(SpringLayout.EAST, textField_222, 0, SpringLayout.EAST, label_271);
+		panel_15.add(textField_222);
+		textField_222.setColumns(10);
+		
+		JLabel label_277 = new JLabel("Настоящим извещаю Вас о проведении согласования местположения границы земельного участка");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_277, 15, SpringLayout.SOUTH, textField_221);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_277, 21, SpringLayout.WEST, panel_15);
+		panel_15.add(label_277);
+		
+		JLabel label_278 = new JLabel("Кадастровый номер участка");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_278, 6, SpringLayout.SOUTH, label_277);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_278, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_278);
+		
+		textField_223 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_223, -3, SpringLayout.NORTH, label_278);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_223, 0, SpringLayout.WEST, textField_216);
+		panel_15.add(textField_223);
+		textField_223.setColumns(10);
+		
+		JLabel label_279 = new JLabel("Расположение участка");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_279, 0, SpringLayout.NORTH, label_278);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_279, 36, SpringLayout.EAST, textField_223);
+		panel_15.add(label_279);
+		
+		textField_224 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_224, 6, SpringLayout.SOUTH, label_277);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_224, 19, SpringLayout.EAST, label_279);
+		sl_panel_15.putConstraint(SpringLayout.EAST, textField_224, -278, SpringLayout.EAST, panel_15);
+		panel_15.add(textField_224);
+		textField_224.setColumns(10);
+		
+		JLabel label_280 = new JLabel("Заказчиком кадастровых работ является");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_280, 6, SpringLayout.SOUTH, textField_223);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_280, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_280);
+		
+		textField_225 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_225, 6, SpringLayout.SOUTH, textField_223);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_225, 20, SpringLayout.EAST, label_280);
+		panel_15.add(textField_225);
+		textField_225.setColumns(10);
+		
+		JLabel label_281 = new JLabel("ФИО руководителя заказчика");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_281, 6, SpringLayout.SOUTH, textField_224);
+		sl_panel_15.putConstraint(SpringLayout.EAST, label_281, 0, SpringLayout.EAST, textField_217);
+		panel_15.add(label_281);
+		
+		textField_226 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_226, 6, SpringLayout.SOUTH, textField_224);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_226, 0, SpringLayout.WEST, label_272);
+		panel_15.add(textField_226);
+		textField_226.setColumns(10);
+		
+		JLabel label_282 = new JLabel("Собрание заинтересованных лиц по поводу согласования местоположения границ состоится по адресу");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_282, 6, SpringLayout.SOUTH, textField_225);
+		sl_panel_15.putConstraint(SpringLayout.EAST, label_282, 0, SpringLayout.EAST, textField_217);
+		panel_15.add(label_282);
+		
+		textField_227 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_227, 6, SpringLayout.SOUTH, textField_226);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_227, 0, SpringLayout.WEST, label_272);
+		panel_15.add(textField_227);
+		textField_227.setColumns(10);
+		
+		JLabel label_283 = new JLabel("Дата собрания");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_283, 3, SpringLayout.NORTH, textField_227);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_283, 26, SpringLayout.EAST, textField_227);
+		panel_15.add(label_283);
+		
+		textField_228 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_228, 0, SpringLayout.NORTH, textField_227);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_228, 6, SpringLayout.EAST, label_283);
+		panel_15.add(textField_228);
+		textField_228.setColumns(10);
+		
+		JLabel label_284 = new JLabel("Время собрания");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_284, 3, SpringLayout.NORTH, textField_227);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_284, 13, SpringLayout.EAST, textField_228);
+		panel_15.add(label_284);
+		
+		textField_229 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_229, 0, SpringLayout.NORTH, textField_227);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_229, 10, SpringLayout.EAST, label_284);
+		panel_15.add(textField_229);
+		textField_229.setColumns(10);
+		
+		JLabel label_285 = new JLabel("С проектом межевого плана земельного участка  можно ознакомиться по адресу");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_285, 16, SpringLayout.SOUTH, label_282);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_285, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_285);
+		
+		textField_230 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_230, 0, SpringLayout.NORTH, label_285);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_230, 16, SpringLayout.EAST, label_285);
+		panel_15.add(textField_230);
+		textField_230.setColumns(10);
+		
+		JLabel label_286 = new JLabel("Дата с которой принимаются возражения");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_286, 19, SpringLayout.SOUTH, label_285);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_286, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_286);
+		
+		textField_231 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_231, -3, SpringLayout.NORTH, label_286);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_231, 0, SpringLayout.WEST, textField_225);
+		panel_15.add(textField_231);
+		textField_231.setColumns(10);
+		
+		JLabel label_287 = new JLabel("Дата до которой принимаются возражения");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_287, 19, SpringLayout.SOUTH, label_286);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_287, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_287);
+		
+		textField_232 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_232, 0, SpringLayout.WEST, textField_225);
+		sl_panel_15.putConstraint(SpringLayout.SOUTH, textField_232, 0, SpringLayout.SOUTH, label_287);
+		panel_15.add(textField_232);
+		textField_232.setColumns(10);
+		
+		JLabel label_288 = new JLabel("Адрес по которому принмаются обоснованные возражения");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_288, 15, SpringLayout.SOUTH, label_287);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_288, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_288);
+		
+		textField_233 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_233, 6, SpringLayout.SOUTH, textField_232);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_233, 0, SpringLayout.WEST, lblNewLabel_13);
+		panel_15.add(textField_233);
+		textField_233.setColumns(10);
+		
+		JLabel label_289 = new JLabel("Смежные земельные участки, с правообладателями которых требуется согласовывать местоположение границы");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_289, 6, SpringLayout.SOUTH, label_288);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_289, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_289);
+		
+		textField_234 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_234, 0, SpringLayout.NORTH, label_289);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_234, 24, SpringLayout.EAST, label_289);
+		panel_15.add(textField_234);
+		textField_234.setColumns(10);
+		
+		JLabel label_290 = new JLabel("Дата подписания");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_290, 15, SpringLayout.SOUTH, label_289);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_290, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_290);
+		
+		textField_235 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.NORTH, textField_235, -3, SpringLayout.NORTH, label_290);
+		sl_panel_15.putConstraint(SpringLayout.WEST, textField_235, 22, SpringLayout.EAST, label_290);
+		panel_15.add(textField_235);
+		textField_235.setColumns(10);
+		
+		JLabel label_291 = new JLabel("Файл шаблона документа");
+		sl_panel_15.putConstraint(SpringLayout.NORTH, label_291, 20, SpringLayout.SOUTH, label_290);
+		sl_panel_15.putConstraint(SpringLayout.WEST, label_291, 0, SpringLayout.WEST, label_268);
+		panel_15.add(label_291);
+		
+		textField_236 = new JTextField();
+		sl_panel_15.putConstraint(SpringLayout.SOUTH, textField_236, 0, SpringLayout.SOUTH, label_291);
+		sl_panel_15.putConstraint(SpringLayout.EAST, textField_236, 0, SpringLayout.EAST, textField_220);
+		panel_15.add(textField_236);
+		textField_236.setColumns(10);
+		
 		JPanel panel_7 = new JPanel();
 		tabbedPane.addTab("Уточняемые", null, panel_7, null);
 		SpringLayout sl_panel_7 = new SpringLayout();
@@ -3874,6 +4212,17 @@ public class newwindow {
 		sl_panel_11.putConstraint(SpringLayout.WEST, label_250, 10, SpringLayout.WEST, label_247);
 		panel_11.add(label_250);
 		
+		JLabel label_251 = new JLabel("Номер кадастрового квартала");
+		sl_panel_11.putConstraint(SpringLayout.NORTH, label_251, 6, SpringLayout.SOUTH, label_250);
+		sl_panel_11.putConstraint(SpringLayout.WEST, label_251, 0, SpringLayout.WEST, label_238);
+		panel_11.add(label_251);
+		
+		textField_209 = new JTextField();
+		sl_panel_11.putConstraint(SpringLayout.NORTH, textField_209, 6, SpringLayout.SOUTH, label_250);
+		sl_panel_11.putConstraint(SpringLayout.WEST, textField_209, 6, SpringLayout.EAST, label_251);
+		panel_11.add(textField_209);
+		textField_209.setColumns(10);
+		
 		JPanel panel_10 = new JPanel();
 		tabbedPane.addTab("Построения", null, panel_10, null);
 		SpringLayout sl_panel_10 = new SpringLayout();
@@ -4166,25 +4515,937 @@ public class newwindow {
 		
 		JPanel panel_12 = new JPanel();
 		tabbedPane.addTab("Чертеж", null, panel_12, null);
-		panel_12.setLayout(new SpringLayout());
+		SpringLayout sl_panel_12 = new SpringLayout();
+		panel_12.setLayout(sl_panel_12);
+		
+		JLabel label_252 = new JLabel("Чертеж земельных участков и их частей");
+		sl_panel_12.putConstraint(SpringLayout.NORTH, label_252, 10, SpringLayout.NORTH, panel_12);
+		sl_panel_12.putConstraint(SpringLayout.EAST, label_252, -414, SpringLayout.EAST, panel_12);
+		panel_12.add(label_252);
+		
+		JLabel label_253 = new JLabel("Каталог координат точек");
+		sl_panel_12.putConstraint(SpringLayout.NORTH, label_253, 30, SpringLayout.NORTH, panel_12);
+		sl_panel_12.putConstraint(SpringLayout.WEST, label_253, 10, SpringLayout.WEST, panel_12);
+		panel_12.add(label_253);
+		
+		JScrollPane scrollPane_2 = new JScrollPane();
+		sl_panel_12.putConstraint(SpringLayout.NORTH, scrollPane_2, 6, SpringLayout.SOUTH, label_253);
+		sl_panel_12.putConstraint(SpringLayout.WEST, scrollPane_2, 20, SpringLayout.WEST, panel_12);
+		sl_panel_12.putConstraint(SpringLayout.SOUTH, scrollPane_2, 61, SpringLayout.SOUTH, label_253);
+		sl_panel_12.putConstraint(SpringLayout.EAST, scrollPane_2, 967, SpringLayout.WEST, panel_12);
+		panel_12.add(scrollPane_2);
+		
+		table_2 = new JTable();
+		table_2.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u0435\u043A \u0433\u0440\u0430\u043D\u0438\u0446\u044B", "X, \u043C", "Y, \u043C", "\u0422\u0438\u043F \u0442\u043E\u0447\u043A\u0438", "\u0426\u0432\u0435\u0442 \u0442\u043E\u0447\u043A\u0438", "\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438", "\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438", "\u041A\u0443\u0440\u0441\u0438\u0432", "\u041F\u043E\u0434\u0447\u0435\u0440\u043A\u0438\u0432\u0430\u043D\u0438\u0435", "\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435"
+			}
+		));
+		scrollPane_2.setViewportView(table_2);
+		
+		JLabel label_254 = new JLabel("Дополнительные соединения между точками");
+		sl_panel_12.putConstraint(SpringLayout.NORTH, label_254, 42, SpringLayout.SOUTH, scrollPane_2);
+		sl_panel_12.putConstraint(SpringLayout.WEST, label_254, 24, SpringLayout.WEST, panel_12);
+		panel_12.add(label_254);
+		
+		JScrollPane scrollPane_3 = new JScrollPane();
+		sl_panel_12.putConstraint(SpringLayout.NORTH, scrollPane_3, 6, SpringLayout.SOUTH, label_254);
+		sl_panel_12.putConstraint(SpringLayout.WEST, scrollPane_3, 20, SpringLayout.WEST, panel_12);
+		sl_panel_12.putConstraint(SpringLayout.SOUTH, scrollPane_3, 61, SpringLayout.SOUTH, label_254);
+		sl_panel_12.putConstraint(SpringLayout.EAST, scrollPane_3, 967, SpringLayout.WEST, panel_12);
+		panel_12.add(scrollPane_3);
+		
+		table_3 = new JTable();
+		table_3.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041D\u0430\u0447\u0430\u043B\u044C\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430", "\u041A\u043E\u043D\u0435\u0447\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430", "\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438", "\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438", "\u0420\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u0430\u0442\u044C", "\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435"
+			}
+		));
+		scrollPane_3.setViewportView(table_3);
+		
+		JLabel label_255 = new JLabel("Масштаб 1");
+		sl_panel_12.putConstraint(SpringLayout.NORTH, label_255, 17, SpringLayout.SOUTH, scrollPane_3);
+		sl_panel_12.putConstraint(SpringLayout.WEST, label_255, 0, SpringLayout.WEST, scrollPane_2);
+		panel_12.add(label_255);
+		
+		textField_210 = new JTextField();
+		sl_panel_12.putConstraint(SpringLayout.WEST, textField_210, 6, SpringLayout.EAST, label_255);
+		sl_panel_12.putConstraint(SpringLayout.SOUTH, textField_210, 0, SpringLayout.SOUTH, label_255);
+		panel_12.add(textField_210);
+		textField_210.setColumns(10);
+		
+		JLabel label_256 = new JLabel("Здесь не дозаполнил хз надо или нет");
+		sl_panel_12.putConstraint(SpringLayout.NORTH, label_256, 57, SpringLayout.SOUTH, scrollPane_3);
+		sl_panel_12.putConstraint(SpringLayout.WEST, label_256, 224, SpringLayout.WEST, panel_12);
+		panel_12.add(label_256);
 		
 		JPanel panel_13 = new JPanel();
 		tabbedPane.addTab("Абрисы", null, panel_13, null);
+		SpringLayout sl_panel_13 = new SpringLayout();
+		panel_13.setLayout(sl_panel_13);
+		
+		JLabel label_257 = new JLabel("Абрисы узловых точек границ земельных участков");
+		sl_panel_13.putConstraint(SpringLayout.NORTH, label_257, 10, SpringLayout.NORTH, panel_13);
+		sl_panel_13.putConstraint(SpringLayout.EAST, label_257, -414, SpringLayout.EAST, panel_13);
+		panel_13.add(label_257);
+		
+		JLabel label_258 = new JLabel("Масштаб 1");
+		sl_panel_13.putConstraint(SpringLayout.NORTH, label_258, 39, SpringLayout.NORTH, panel_13);
+		sl_panel_13.putConstraint(SpringLayout.WEST, label_258, 10, SpringLayout.WEST, panel_13);
+		panel_13.add(label_258);
+		
+		textField_211 = new JTextField();
+		sl_panel_13.putConstraint(SpringLayout.NORTH, textField_211, 0, SpringLayout.NORTH, label_258);
+		sl_panel_13.putConstraint(SpringLayout.WEST, textField_211, 6, SpringLayout.EAST, label_258);
+		panel_13.add(textField_211);
+		textField_211.setColumns(10);
+		
+		JLabel label_259 = new JLabel("Введите число, например, 1000, 2000, 10000, либо выполните расчет");
+		sl_panel_13.putConstraint(SpringLayout.NORTH, label_259, 9, SpringLayout.SOUTH, textField_211);
+		sl_panel_13.putConstraint(SpringLayout.WEST, label_259, 10, SpringLayout.WEST, panel_13);
+		panel_13.add(label_259);
+		
+		JLabel lblA = new JLabel("Обозначение точки A");
+		sl_panel_13.putConstraint(SpringLayout.WEST, lblA, 33, SpringLayout.EAST, textField_211);
+		sl_panel_13.putConstraint(SpringLayout.SOUTH, lblA, 0, SpringLayout.SOUTH, textField_211);
+		panel_13.add(lblA);
+		
+		textField_212 = new JTextField();
+		sl_panel_13.putConstraint(SpringLayout.WEST, textField_212, 19, SpringLayout.EAST, lblA);
+		sl_panel_13.putConstraint(SpringLayout.SOUTH, textField_212, 0, SpringLayout.SOUTH, textField_211);
+		panel_13.add(textField_212);
+		textField_212.setColumns(10);
+		
+		JScrollPane scrollPane_4 = new JScrollPane();
+		sl_panel_13.putConstraint(SpringLayout.NORTH, scrollPane_4, 6, SpringLayout.SOUTH, label_259);
+		sl_panel_13.putConstraint(SpringLayout.WEST, scrollPane_4, 10, SpringLayout.WEST, panel_13);
+		sl_panel_13.putConstraint(SpringLayout.SOUTH, scrollPane_4, 59, SpringLayout.SOUTH, label_259);
+		sl_panel_13.putConstraint(SpringLayout.EAST, scrollPane_4, 968, SpringLayout.WEST, panel_13);
+		panel_13.add(scrollPane_4);
+		
+		table_4 = new JTable();
+		table_4.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u0435\u043A \u0433\u0440\u0430\u043D\u0438\u0446\u044B", "X, \u043C", "Y, \u043C", "\u0422\u0438\u043F \u0442\u043E\u0447\u043A\u0438", "\u0426\u0432\u0435\u0442 \u0442\u043E\u0447\u043A\u0438", "\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438", "\u041A\u0443\u0440\u0441\u0438\u0432", "\u041F\u043E\u0434\u0447\u0435\u0440\u043A\u0438\u0432\u0430\u043D\u0438\u0435", "\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435", "New column"
+			}
+		));
+		scrollPane_4.setViewportView(table_4);
+		
+		JScrollPane scrollPane_5 = new JScrollPane();
+		sl_panel_13.putConstraint(SpringLayout.WEST, scrollPane_5, 0, SpringLayout.WEST, label_258);
+		sl_panel_13.putConstraint(SpringLayout.SOUTH, scrollPane_5, -474, SpringLayout.SOUTH, panel_13);
+		sl_panel_13.putConstraint(SpringLayout.EAST, scrollPane_5, 0, SpringLayout.EAST, scrollPane_4);
+		panel_13.add(scrollPane_5);
+		
+		JLabel lblNewLabel_12 = new JLabel("Дополнительные соединения между точками абриса А");
+		sl_panel_13.putConstraint(SpringLayout.NORTH, scrollPane_5, 6, SpringLayout.SOUTH, lblNewLabel_12);
+		
+		table_5 = new JTable();
+		table_5.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041D\u0430\u0447\u0430\u043B\u044C\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430", "\u041A\u043E\u043D\u0435\u0447\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430", "\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438", "\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438", "\u0420\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u0430\u0442\u044C", "\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435"
+			}
+		));
+		scrollPane_5.setViewportView(table_5);
+		sl_panel_13.putConstraint(SpringLayout.NORTH, lblNewLabel_12, 6, SpringLayout.SOUTH, scrollPane_4);
+		sl_panel_13.putConstraint(SpringLayout.WEST, lblNewLabel_12, 0, SpringLayout.WEST, label_258);
+		panel_13.add(lblNewLabel_12);
+		
+		JLabel label_260 = new JLabel("Дальше не заполнял хз надо или нет");
+		sl_panel_13.putConstraint(SpringLayout.NORTH, label_260, 39, SpringLayout.SOUTH, scrollPane_5);
+		sl_panel_13.putConstraint(SpringLayout.WEST, label_260, 405, SpringLayout.WEST, panel_13);
+		panel_13.add(label_260);
 		
 		JPanel panel_14 = new JPanel();
 		tabbedPane.addTab("Акт", null, panel_14, null);
+		SpringLayout sl_panel_14 = new SpringLayout();
+		panel_14.setLayout(sl_panel_14);
 		
-		JPanel panel_15 = new JPanel();
-		tabbedPane.addTab("Извещение", null, panel_15, null);
+		JLabel label_261 = new JLabel("Акт согласования местоположения границы земельного участка");
+		sl_panel_14.putConstraint(SpringLayout.NORTH, label_261, 10, SpringLayout.NORTH, panel_14);
+		sl_panel_14.putConstraint(SpringLayout.WEST, label_261, 10, SpringLayout.WEST, panel_14);
+		panel_14.add(label_261);
+		
+		JLabel label_262 = new JLabel("Кадастровый номер или обозначение земельного участка");
+		sl_panel_14.putConstraint(SpringLayout.NORTH, label_262, 6, SpringLayout.SOUTH, label_261);
+		sl_panel_14.putConstraint(SpringLayout.WEST, label_262, 0, SpringLayout.WEST, label_261);
+		panel_14.add(label_262);
+		
+		textField_213 = new JTextField();
+		sl_panel_14.putConstraint(SpringLayout.NORTH, textField_213, 6, SpringLayout.SOUTH, label_261);
+		sl_panel_14.putConstraint(SpringLayout.WEST, textField_213, 10, SpringLayout.EAST, label_262);
+		panel_14.add(textField_213);
+		textField_213.setColumns(10);
+		
+		JLabel label_263 = new JLabel("Площадь земельного участка");
+		sl_panel_14.putConstraint(SpringLayout.NORTH, label_263, 0, SpringLayout.NORTH, label_262);
+		sl_panel_14.putConstraint(SpringLayout.WEST, label_263, 55, SpringLayout.EAST, textField_213);
+		panel_14.add(label_263);
+		
+		textField_214 = new JTextField();
+		sl_panel_14.putConstraint(SpringLayout.NORTH, textField_214, 0, SpringLayout.NORTH, label_262);
+		sl_panel_14.putConstraint(SpringLayout.WEST, textField_214, 14, SpringLayout.EAST, label_263);
+		panel_14.add(textField_214);
+		textField_214.setColumns(10);
+		
+		JLabel label_264 = new JLabel("Местоположение границы земельного участка согласовано:");
+		sl_panel_14.putConstraint(SpringLayout.NORTH, label_264, 21, SpringLayout.SOUTH, label_262);
+		sl_panel_14.putConstraint(SpringLayout.WEST, label_264, 10, SpringLayout.WEST, panel_14);
+		panel_14.add(label_264);
+		
+		JScrollPane scrollPane_6 = new JScrollPane();
+		sl_panel_14.putConstraint(SpringLayout.NORTH, scrollPane_6, 6, SpringLayout.SOUTH, label_264);
+		sl_panel_14.putConstraint(SpringLayout.WEST, scrollPane_6, 10, SpringLayout.WEST, panel_14);
+		sl_panel_14.putConstraint(SpringLayout.SOUTH, scrollPane_6, 56, SpringLayout.SOUTH, label_264);
+		sl_panel_14.putConstraint(SpringLayout.EAST, scrollPane_6, 974, SpringLayout.WEST, panel_14);
+		panel_14.add(scrollPane_6);
+		
+		table_6 = new JTable();
+		table_6.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u043E\u0439 \u0442\u043E\u0447\u043A\u0438 \u0438\u043B\u0438 \u0447\u0430\u0441\u0442\u0438 \u0433\u0440\u0430\u043D\u0438\u0446\u044B", "\u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0441\u043C\u0435\u0436\u043D\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430", "\u0424\u0430\u043C\u0438\u043B\u0438\u044F \u0438 \u0438\u043D\u0438\u0446\u0438\u0430\u043B\u044B \u043F\u0440\u0430\u0432\u043E\u043E\u0431\u043B\u0430\u0434\u0430\u0442\u0435\u043B\u044F \u0438\u043B\u0438 \u0435\u0433\u043E \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043B\u044F, \u0440\u0435\u043A\u0432\u0438\u0437\u0438\u0442\u044B \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430, \u0443\u0434\u043E\u0441\u0442\u043E\u0432\u0435\u0440\u044F\u044E\u0449\u0435\u0433\u043E \u043B\u0438\u0447\u043D\u043E\u0441\u0442\u044C", "\u0420\u0435\u043A\u0432\u0438\u0437\u0438\u0442\u044B \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u043E\u0432, \u043F\u043E\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u044E\u0449\u0438\u0435 \u043F\u043E\u043B\u043D\u043E\u043C\u043E\u0447\u0438\u044F \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u0442\u0435\u043B\u0439, \u0443\u0447\u0441\u0430\u0441\u0442\u0432\u0443\u044E\u0449\u0438\u0445 \u0432 \u0441\u043E\u0433\u043B\u0430\u0441\u043E\u0432\u043D\u0438\u0438", "\u041F\u043E\u0434\u043F\u0438\u0441\u044C \u0438 \u0434\u0430\u0442\u0430", "\u0421\u043F\u043E\u0441\u043E\u0431 \u0438 \u0434\u0430\u0442\u0430 \u0438\u0437\u0432\u0435\u0449\u0435\u043D\u0438\u044F"
+			}
+		));
+		scrollPane_6.setViewportView(table_6);
+		
+		JLabel label_265 = new JLabel("Наличие разногласий при согласовании местоположения границы земельного участка:");
+		sl_panel_14.putConstraint(SpringLayout.NORTH, label_265, 6, SpringLayout.SOUTH, scrollPane_6);
+		sl_panel_14.putConstraint(SpringLayout.WEST, label_265, 10, SpringLayout.WEST, panel_14);
+		panel_14.add(label_265);
+		
+		JScrollPane scrollPane_7 = new JScrollPane();
+		sl_panel_14.putConstraint(SpringLayout.NORTH, scrollPane_7, 6, SpringLayout.SOUTH, label_265);
+		sl_panel_14.putConstraint(SpringLayout.WEST, scrollPane_7, 10, SpringLayout.WEST, panel_14);
+		sl_panel_14.putConstraint(SpringLayout.SOUTH, scrollPane_7, 56, SpringLayout.SOUTH, label_265);
+		sl_panel_14.putConstraint(SpringLayout.EAST, scrollPane_7, 974, SpringLayout.WEST, panel_14);
+		panel_14.add(scrollPane_7);
+		
+		table_7 = new JTable();
+		table_7.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null},
+			},
+			new String[] {
+				"\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u043E\u0439 \u0442\u043E\u0447\u043A\u0438 \u0438\u043B\u0438 \u0447\u0430\u0441\u0442\u0438 \u0433\u0440\u0430\u043D\u0438\u0446\u044B", "\u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0441\u043C\u0435\u0436\u043D\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430", "\u0421\u043E\u0434\u0435\u0440\u0436\u0430\u043D\u0438\u0435 \u0432\u043E\u0437\u0440\u0430\u0436\u0435\u043D\u0438\u0439 \u043E \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0438 \u0433\u0440\u0430\u043D\u0438\u0446"
+			}
+		));
+		scrollPane_7.setViewportView(table_7);
+		
+		JLabel label_266 = new JLabel("Сведения о снятии возражений о местоположении границы земельного участка:");
+		sl_panel_14.putConstraint(SpringLayout.NORTH, label_266, 6, SpringLayout.SOUTH, scrollPane_7);
+		sl_panel_14.putConstraint(SpringLayout.WEST, label_266, 0, SpringLayout.WEST, label_261);
+		panel_14.add(label_266);
+		
+		JScrollPane scrollPane_8 = new JScrollPane();
+		sl_panel_14.putConstraint(SpringLayout.NORTH, scrollPane_8, 6, SpringLayout.SOUTH, label_266);
+		sl_panel_14.putConstraint(SpringLayout.WEST, scrollPane_8, 10, SpringLayout.WEST, panel_14);
+		sl_panel_14.putConstraint(SpringLayout.SOUTH, scrollPane_8, 56, SpringLayout.SOUTH, label_266);
+		sl_panel_14.putConstraint(SpringLayout.EAST, scrollPane_8, 974, SpringLayout.WEST, panel_14);
+		panel_14.add(scrollPane_8);
+		
+		table_8 = new JTable();
+		table_8.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null},
+			},
+			new String[] {
+				"\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u043E\u0439 \u0442\u043E\u0447\u043A\u0438 \u0438\u043B\u0438 \u0447\u0430\u0441\u0442\u0438 \u0433\u0440\u0430\u043D\u0438\u0446\u044B", "\u041A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0439 \u043D\u043E\u043C\u0435\u0440 \u0441\u043C\u0435\u0436\u043D\u043E\u0433\u043E \u0437\u0435\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0443\u0447\u0430\u0441\u0442\u043A\u0430", "\u0424\u0430\u043C\u0438\u043B\u0438\u044F \u0438 \u0438\u043D\u0438\u0446\u0438\u0430\u043B\u044B \u043F\u0440\u0430\u0432\u043E\u043E\u0431\u043B\u0430\u0434\u0430\u0442\u0435\u043B\u044F \u0438\u043B\u0438 \u0435\u0433\u043E \u043F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442\u0435\u043B\u044F, \u0440\u0435\u043A\u0432\u0438\u0442\u044B \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430, \u0443\u0434\u043E\u0441\u0442\u043E\u0432\u0435\u0440\u044F\u044E\u0449\u0435\u0433\u043E \u043B\u0438\u0447\u043D\u043E\u0441\u0442\u044C, \u0434\u0430\u0442\u0430 \u0441\u043D\u044F\u0442\u0438\u044F \u0432\u043E\u0437\u0440\u0430\u0436\u0435\u043D\u0438\u044F, \u043F\u043E\u0434\u043F\u0438\u0441\u044C", "\u0421\u043F\u043E\u0441\u043E\u0431 \u0441\u043D\u044F\u0442\u0438\u044F \u0432\u043E\u0437\u0440\u0430\u0436\u0435\u043D\u0438\u0439 \u043E \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u0438 \u0433\u0440\u0430\u043D\u0438\u0446 (\u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u0435 \u043C\u0435\u0441\u0442\u043E\u043F\u043E\u043B\u043E\u0436\u0435\u043D\u0438\u044F \u0433\u0440\u0430\u043D\u0438\u0446, \u0440\u0430\u0441\u0441\u043C\u043E\u0442\u0440\u0435\u043D\u0438 \u0437\u0430\u043C\u0435\u043B\u044C\u043D\u043E\u0433\u043E \u0441\u043F\u0440\u043E\u0430 \u0432 \u0441\u0443\u0434\u0435, \u0442\u0440\u0435\u0439\u0442\u0435\u0441\u043A\u043E\u043C \u0441\u0443\u0434\u0435"
+			}
+		));
+		scrollPane_8.setViewportView(table_8);
+		
+		JLabel label_267 = new JLabel("Фамилия и иниицалы кадастрового инженера");
+		sl_panel_14.putConstraint(SpringLayout.NORTH, label_267, 20, SpringLayout.SOUTH, scrollPane_8);
+		sl_panel_14.putConstraint(SpringLayout.WEST, label_267, 0, SpringLayout.WEST, label_261);
+		panel_14.add(label_267);
+		
+		textField_215 = new JTextField();
+		sl_panel_14.putConstraint(SpringLayout.NORTH, textField_215, 0, SpringLayout.NORTH, label_267);
+		sl_panel_14.putConstraint(SpringLayout.EAST, textField_215, 0, SpringLayout.EAST, label_261);
+		panel_14.add(textField_215);
+		textField_215.setColumns(10);
 
 		JPanel panel_16 = new JPanel();
 		tabbedPane.addTab("Знак", null, panel_16, null);
+		SpringLayout sl_panel_16 = new SpringLayout();
+		panel_16.setLayout(sl_panel_16);
+		
+		JLabel label_292 = new JLabel("Акт о сдаче межевых знаков на наблюдение за сохранностью");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_292, 10, SpringLayout.NORTH, panel_16);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_292, 10, SpringLayout.WEST, panel_16);
+		panel_16.add(label_292);
+		
+		JLabel lblNewLabel_14 = new JLabel("Предоставление земельного участка");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, lblNewLabel_14, 6, SpringLayout.SOUTH, label_292);
+		sl_panel_16.putConstraint(SpringLayout.WEST, lblNewLabel_14, 0, SpringLayout.WEST, label_292);
+		panel_16.add(lblNewLabel_14);
+		
+		textField_237 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.NORTH, textField_237, 6, SpringLayout.SOUTH, label_292);
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_237, 6, SpringLayout.EAST, lblNewLabel_14);
+		panel_16.add(textField_237);
+		textField_237.setColumns(10);
+		
+		JLabel label_293 = new JLabel("Для чего предоставляется участок");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_293, 6, SpringLayout.SOUTH, label_292);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_293, 11, SpringLayout.EAST, textField_237);
+		panel_16.add(label_293);
+		
+		JLabel label_294 = new JLabel("Квартал, где расположен участок");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_294, 6, SpringLayout.SOUTH, lblNewLabel_14);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_294, 0, SpringLayout.WEST, label_292);
+		panel_16.add(label_294);
+		
+		textField_238 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.NORTH, textField_238, 6, SpringLayout.SOUTH, textField_237);
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_238, 0, SpringLayout.WEST, textField_237);
+		panel_16.add(textField_238);
+		textField_238.setColumns(10);
+		
+		JLabel label_295 = new JLabel("Адрес участка");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_295, 0, SpringLayout.NORTH, textField_238);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_295, 0, SpringLayout.WEST, label_293);
+		panel_16.add(label_295);
+		
+		textField_239 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_239, 6, SpringLayout.EAST, label_295);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, textField_239, 0, SpringLayout.SOUTH, textField_238);
+		panel_16.add(textField_239);
+		textField_239.setColumns(10);
+		
+		JLabel label_296 = new JLabel("ФИО сдающего");
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_296, 24, SpringLayout.EAST, textField_239);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, label_296, 0, SpringLayout.SOUTH, textField_238);
+		panel_16.add(label_296);
+		
+		textField_240 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_240, 6, SpringLayout.EAST, label_296);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, textField_240, 0, SpringLayout.SOUTH, textField_238);
+		panel_16.add(textField_240);
+		textField_240.setColumns(10);
+		
+		JLabel lblNewLabel_15 = new JLabel("Должность принимающего");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, lblNewLabel_15, 0, SpringLayout.NORTH, label_296);
+		sl_panel_16.putConstraint(SpringLayout.WEST, lblNewLabel_15, 16, SpringLayout.EAST, textField_240);
+		panel_16.add(lblNewLabel_15);
+		
+		textField_241 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_241, 15, SpringLayout.EAST, lblNewLabel_15);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, textField_241, 0, SpringLayout.SOUTH, textField_238);
+		panel_16.add(textField_241);
+		textField_241.setColumns(10);
+		
+		JLabel label_297 = new JLabel("ФИО принимающего");
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, label_297, 0, SpringLayout.SOUTH, lblNewLabel_14);
+		sl_panel_16.putConstraint(SpringLayout.EAST, label_297, -207, SpringLayout.EAST, panel_16);
+		panel_16.add(label_297);
+		
+		textField_242 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_242, 6, SpringLayout.EAST, label_297);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, textField_242, 0, SpringLayout.SOUTH, lblNewLabel_14);
+		panel_16.add(textField_242);
+		textField_242.setColumns(10);
+		
+		JScrollPane scrollPane_9 = new JScrollPane();
+		sl_panel_16.putConstraint(SpringLayout.NORTH, scrollPane_9, 16, SpringLayout.SOUTH, textField_238);
+		sl_panel_16.putConstraint(SpringLayout.WEST, scrollPane_9, 10, SpringLayout.WEST, panel_16);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, scrollPane_9, 67, SpringLayout.SOUTH, textField_238);
+		sl_panel_16.putConstraint(SpringLayout.EAST, scrollPane_9, 0, SpringLayout.EAST, textField_242);
+		panel_16.add(scrollPane_9);
+		
+		table_9 = new JTable();
+		table_9.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null},
+			},
+			new String[] {
+				"\u041D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u043C\u0435\u0436\u0435\u0432\u043E\u0433\u043E \u0437\u043D\u0430\u043A\u0430", "X", "Y", "S, \u043C", "\u0417\u0430\u043A\u0440\u0435\u043F\u043B\u0435\u043D\u0438\u0435 \u043C\u0435\u0436\u0435\u0432\u044B\u0445 \u0437\u043D\u0430\u043A\u043E\u0432"
+			}
+		));
+		scrollPane_9.setViewportView(table_9);
+		
+		JLabel label_298 = new JLabel("Количество межевых знаков");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_298, 17, SpringLayout.SOUTH, scrollPane_9);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_298, 0, SpringLayout.WEST, label_292);
+		panel_16.add(label_298);
+		
+		textField_243 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_243, 6, SpringLayout.EAST, label_298);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, textField_243, 0, SpringLayout.SOUTH, label_298);
+		panel_16.add(textField_243);
+		textField_243.setColumns(10);
+		
+		JLabel label_299 = new JLabel("Дата составления акта сдачи, день");
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_299, 22, SpringLayout.EAST, textField_243);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, label_299, 0, SpringLayout.SOUTH, label_298);
+		panel_16.add(label_299);
+		
+		textField_244 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.NORTH, textField_244, 0, SpringLayout.NORTH, label_298);
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_244, 18, SpringLayout.EAST, label_299);
+		panel_16.add(textField_244);
+		textField_244.setColumns(10);
+		
+		JLabel label_300 = new JLabel("Адрес хранения одного экземпляра");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_300, 0, SpringLayout.NORTH, label_298);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_300, 26, SpringLayout.EAST, textField_244);
+		panel_16.add(label_300);
+		
+		textField_245 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.NORTH, textField_245, 0, SpringLayout.NORTH, label_298);
+		sl_panel_16.putConstraint(SpringLayout.EAST, textField_245, 0, SpringLayout.EAST, label_297);
+		panel_16.add(textField_245);
+		textField_245.setColumns(10);
+		
+		JLabel label_301 = new JLabel("ФИО кому вручен другой экземпляр");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_301, 18, SpringLayout.SOUTH, label_298);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_301, 10, SpringLayout.WEST, panel_16);
+		panel_16.add(label_301);
+		
+		textField_246 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.NORTH, textField_246, 0, SpringLayout.NORTH, label_301);
+		sl_panel_16.putConstraint(SpringLayout.EAST, textField_246, 0, SpringLayout.EAST, textField_237);
+		panel_16.add(textField_246);
+		textField_246.setColumns(10);
+		
+		JLabel label_302 = new JLabel("ФИО сдающего");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_302, 0, SpringLayout.NORTH, label_301);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_302, 41, SpringLayout.EAST, textField_246);
+		panel_16.add(label_302);
+		
+		textField_247 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_247, 16, SpringLayout.EAST, label_302);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, textField_247, 0, SpringLayout.SOUTH, textField_246);
+		panel_16.add(textField_247);
+		textField_247.setColumns(10);
+		
+		JLabel label_303 = new JLabel("ФИО принимающего");
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_303, 37, SpringLayout.EAST, textField_247);
+		sl_panel_16.putConstraint(SpringLayout.SOUTH, label_303, 0, SpringLayout.SOUTH, textField_246);
+		panel_16.add(label_303);
+		
+		textField_248 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.NORTH, textField_248, 28, SpringLayout.SOUTH, label_300);
+		sl_panel_16.putConstraint(SpringLayout.EAST, textField_248, 0, SpringLayout.EAST, label_300);
+		panel_16.add(textField_248);
+		textField_248.setColumns(10);
+		
+		JLabel label_304 = new JLabel("Файл шаблона документа");
+		sl_panel_16.putConstraint(SpringLayout.NORTH, label_304, 28, SpringLayout.SOUTH, label_301);
+		sl_panel_16.putConstraint(SpringLayout.WEST, label_304, 10, SpringLayout.WEST, panel_16);
+		panel_16.add(label_304);
+		
+		textField_249 = new JTextField();
+		sl_panel_16.putConstraint(SpringLayout.NORTH, textField_249, 0, SpringLayout.NORTH, label_304);
+		sl_panel_16.putConstraint(SpringLayout.WEST, textField_249, 6, SpringLayout.EAST, label_304);
+		panel_16.add(textField_249);
+		textField_249.setColumns(10);
 		
 		JPanel panel_17 = new JPanel();
 		tabbedPane.addTab("Схема", null, panel_17, null);
+		SpringLayout sl_panel_17 = new SpringLayout();
+		panel_17.setLayout(sl_panel_17);
+		
+		JLabel label_305 = new JLabel("Схема расположения межевых знаков");
+		sl_panel_17.putConstraint(SpringLayout.NORTH, label_305, 10, SpringLayout.NORTH, panel_17);
+		sl_panel_17.putConstraint(SpringLayout.WEST, label_305, 10, SpringLayout.WEST, panel_17);
+		panel_17.add(label_305);
+		
+		JLabel label_306 = new JLabel("Каталог координат точек");
+		sl_panel_17.putConstraint(SpringLayout.NORTH, label_306, 6, SpringLayout.SOUTH, label_305);
+		sl_panel_17.putConstraint(SpringLayout.WEST, label_306, 0, SpringLayout.WEST, label_305);
+		panel_17.add(label_306);
+		
+		JScrollPane scrollPane_10 = new JScrollPane();
+		sl_panel_17.putConstraint(SpringLayout.NORTH, scrollPane_10, 6, SpringLayout.SOUTH, label_306);
+		sl_panel_17.putConstraint(SpringLayout.WEST, scrollPane_10, 10, SpringLayout.WEST, panel_17);
+		sl_panel_17.putConstraint(SpringLayout.SOUTH, scrollPane_10, 59, SpringLayout.SOUTH, label_306);
+		sl_panel_17.putConstraint(SpringLayout.EAST, scrollPane_10, 975, SpringLayout.WEST, panel_17);
+		panel_17.add(scrollPane_10);
+		
+		table_10 = new JTable();
+		table_10.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041E\u0431\u043E\u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435 \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u043D\u044B\u0445 \u0442\u043E\u0447\u0435\u043A \u0433\u0440\u0430\u043D\u0438\u0446\u044B", "X, \u043C", "Y, \u043C", "\u0422\u0438\u043F \u0442\u043E\u0447\u043A\u0438", "\u0426\u0432\u0435\u0442 \u0442\u043E\u0447\u043A\u0438", "\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438", "\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438", "\u041A\u0443\u0440\u0441\u0438\u0432", "\u041F\u043E\u0434\u0447\u0435\u0440\u043A\u0438\u0432\u0430\u043D\u0438\u0435", "\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435"
+			}
+		));
+		scrollPane_10.setViewportView(table_10);
+		
+		JLabel label_307 = new JLabel("Дополнительные соединения между точками");
+		sl_panel_17.putConstraint(SpringLayout.NORTH, label_307, 18, SpringLayout.SOUTH, scrollPane_10);
+		sl_panel_17.putConstraint(SpringLayout.WEST, label_307, 0, SpringLayout.WEST, label_305);
+		panel_17.add(label_307);
+		
+		JScrollPane scrollPane_11 = new JScrollPane();
+		sl_panel_17.putConstraint(SpringLayout.NORTH, scrollPane_11, 6, SpringLayout.SOUTH, label_307);
+		sl_panel_17.putConstraint(SpringLayout.WEST, scrollPane_11, 10, SpringLayout.WEST, panel_17);
+		sl_panel_17.putConstraint(SpringLayout.SOUTH, scrollPane_11, 59, SpringLayout.SOUTH, label_307);
+		sl_panel_17.putConstraint(SpringLayout.EAST, scrollPane_11, 975, SpringLayout.WEST, panel_17);
+		panel_17.add(scrollPane_11);
+		
+		table_11 = new JTable();
+		table_11.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null, null, null, null},
+			},
+			new String[] {
+				"\u041D\u0430\u0447\u0430\u043B\u044C\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430", "\u041A\u043E\u043D\u0435\u0447\u043D\u0430\u044F \u0442\u043E\u0447\u043A\u0430", "\u0422\u0438\u043F \u043B\u0438\u043D\u0438\u0438", "\u0426\u0432\u0435\u0442 \u043B\u0438\u043D\u0438\u0438", "\u0420\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435 \u043F\u043E\u0434\u043F\u0438\u0441\u0430\u0442\u044C", "\u041F\u0440\u0438\u043C\u0435\u0447\u0430\u043D\u0438\u0435"
+			}
+		));
+		scrollPane_11.setViewportView(table_11);
+		
+		JLabel label_308 = new JLabel("Дальше не заполнял хз надо или нет");
+		sl_panel_17.putConstraint(SpringLayout.NORTH, label_308, 29, SpringLayout.SOUTH, scrollPane_11);
+		sl_panel_17.putConstraint(SpringLayout.WEST, label_308, 367, SpringLayout.WEST, panel_17);
+		panel_17.add(label_308);
 		
 		JPanel panel_18 = new JPanel();
 		tabbedPane.addTab("ДекларацияВС", null, panel_18, null);
+		SpringLayout sl_panel_18 = new SpringLayout();
+		panel_18.setLayout(sl_panel_18);
+		
+		JLabel label_309 = new JLabel("Декларация об объекте недвижимости, относящемся к имуществу ВС РФ и подведомственных МинОб РФ организаций, имуществу огранов ФСБ");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_309, 10, SpringLayout.NORTH, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_309, 10, SpringLayout.WEST, panel_18);
+		panel_18.add(label_309);
+		
+		JLabel label_310 = new JLabel("1. Вид объекта недвижимости - земельный участок");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_310, 6, SpringLayout.SOUTH, label_309);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_310, 10, SpringLayout.WEST, panel_18);
+		panel_18.add(label_310);
+		
+		JLabel label_311 = new JLabel("2. Кадастровый номер объекта недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_311, 6, SpringLayout.SOUTH, label_310);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_311, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_311);
+		
+		textField_250 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_250, 6, SpringLayout.SOUTH, label_310);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_250, 6, SpringLayout.EAST, label_311);
+		panel_18.add(textField_250);
+		textField_250.setColumns(10);
+		
+		JLabel label_312 = new JLabel("Ранне присвоенный государственный учетный номер: кадастровый, инвентарный, условный номер или номер учетной записи в государственном лесном реестре");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_312, 6, SpringLayout.SOUTH, label_311);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_312, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_312);
+		
+		JScrollPane scrollPane_12 = new JScrollPane();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, scrollPane_12, 11, SpringLayout.SOUTH, label_312);
+		sl_panel_18.putConstraint(SpringLayout.WEST, scrollPane_12, 10, SpringLayout.WEST, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.SOUTH, scrollPane_12, 58, SpringLayout.SOUTH, label_312);
+		sl_panel_18.putConstraint(SpringLayout.EAST, scrollPane_12, 972, SpringLayout.WEST, panel_18);
+		panel_18.add(scrollPane_12);
+		
+		table_12 = new JTable();
+		table_12.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null},
+			},
+			new String[] {
+				"\u0422\u0438\u043F \u043D\u043E\u043C\u0435\u0440\u0430", "\u041D\u043E\u043C\u0435\u0440"
+			}
+		));
+		scrollPane_12.setViewportView(table_12);
+		
+		JLabel label_313 = new JLabel("3. Номер кадастрового квартала (кадастровых кварталов), в пределах которого (которых) расположен объект недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_313, 6, SpringLayout.SOUTH, scrollPane_12);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_313, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_313);
+		
+		textField_251 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_251, 6, SpringLayout.SOUTH, scrollPane_12);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_251, 20, SpringLayout.EAST, label_313);
+		panel_18.add(textField_251);
+		textField_251.setColumns(10);
+		
+		JScrollPane scrollPane_13 = new JScrollPane();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, scrollPane_13, 6, SpringLayout.SOUTH, label_313);
+		sl_panel_18.putConstraint(SpringLayout.WEST, scrollPane_13, 20, SpringLayout.WEST, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.SOUTH, scrollPane_13, 53, SpringLayout.SOUTH, label_313);
+		sl_panel_18.putConstraint(SpringLayout.EAST, scrollPane_13, 474, SpringLayout.WEST, panel_18);
+		panel_18.add(scrollPane_13);
+		
+		table_13 = new JTable();
+		table_13.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null},
+			},
+			new String[] {
+				"\u041D\u043E\u043C\u0435\u0440 \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u043E\u0433\u043E \u043A\u0432\u0430\u0440\u0442\u0430\u043B\u0430"
+			}
+		));
+		scrollPane_13.setViewportView(table_13);
+		
+		JLabel label_314 = new JLabel("4. Адрес (местоположение) объекта недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_314, 6, SpringLayout.SOUTH, scrollPane_13);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_314, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_314);
+		
+		textField_252 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_252, 6, SpringLayout.SOUTH, scrollPane_13);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_252, 6, SpringLayout.EAST, label_314);
+		panel_18.add(textField_252);
+		textField_252.setColumns(10);
+		
+		JLabel label_315 = new JLabel("Тип адреса");
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_315, 6, SpringLayout.EAST, textField_252);
+		sl_panel_18.putConstraint(SpringLayout.SOUTH, label_315, 0, SpringLayout.SOUTH, label_314);
+		panel_18.add(label_315);
+		
+		textField_253 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_253, 6, SpringLayout.SOUTH, scrollPane_13);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_253, 6, SpringLayout.EAST, label_315);
+		panel_18.add(textField_253);
+		textField_253.setColumns(10);
+		
+		JLabel label_316 = new JLabel("5.5 Описание земельного участка");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_316, 6, SpringLayout.SOUTH, textField_251);
+		panel_18.add(label_316);
+		
+		JLabel label_317 = new JLabel("Площадь (кв.м)");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_317, 34, SpringLayout.SOUTH, label_313);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_317, 74, SpringLayout.EAST, scrollPane_13);
+		panel_18.add(label_317);
+		
+		textField_254 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_254, 6, SpringLayout.SOUTH, label_316);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_254, 6, SpringLayout.EAST, label_317);
+		panel_18.add(textField_254);
+		textField_254.setColumns(10);
+		
+		JLabel label_318 = new JLabel("Характер использования земельного участка");
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_318, 12, SpringLayout.EAST, textField_254);
+		sl_panel_18.putConstraint(SpringLayout.SOUTH, label_318, 0, SpringLayout.SOUTH, scrollPane_13);
+		panel_18.add(label_318);
+		
+		JLabel lblNewLabel_16 = new JLabel("Категория земель");
+		sl_panel_18.putConstraint(SpringLayout.WEST, lblNewLabel_16, 885, SpringLayout.WEST, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.EAST, label_316, -67, SpringLayout.WEST, lblNewLabel_16);
+		sl_panel_18.putConstraint(SpringLayout.NORTH, lblNewLabel_16, 7, SpringLayout.NORTH, scrollPane_13);
+		panel_18.add(lblNewLabel_16);
+		
+		textField_255 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_255, 4, SpringLayout.NORTH, scrollPane_13);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_255, 4, SpringLayout.EAST, lblNewLabel_16);
+		panel_18.add(textField_255);
+		textField_255.setColumns(10);
+		
+		JLabel label_319 = new JLabel("Реквизиты документа, подтверждающего сведения о категории земель");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_319, 6, SpringLayout.SOUTH, textField_252);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_319, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_319);
+		
+		textField_256 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_256, 6, SpringLayout.SOUTH, label_315);
+		sl_panel_18.putConstraint(SpringLayout.EAST, textField_256, 0, SpringLayout.EAST, scrollPane_13);
+		panel_18.add(textField_256);
+		textField_256.setColumns(10);
+		
+		JLabel lblNewLabel_17 = new JLabel("Виды разрешенного использования");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, lblNewLabel_17, 6, SpringLayout.SOUTH, label_319);
+		sl_panel_18.putConstraint(SpringLayout.WEST, lblNewLabel_17, 0, SpringLayout.WEST, label_309);
+		panel_18.add(lblNewLabel_17);
+		
+		JScrollPane scrollPane_14 = new JScrollPane();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, scrollPane_14, 6, SpringLayout.SOUTH, lblNewLabel_17);
+		sl_panel_18.putConstraint(SpringLayout.WEST, scrollPane_14, 10, SpringLayout.WEST, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.SOUTH, scrollPane_14, -368, SpringLayout.SOUTH, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.EAST, scrollPane_14, 0, SpringLayout.EAST, scrollPane_12);
+		panel_18.add(scrollPane_14);
+		
+		table_14 = new JTable();
+		table_14.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null, null},
+			},
+			new String[] {
+				"\u0412\u0438\u0434 \u0440\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u043D\u043E\u0433\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u043F\u043E \u043A\u043B\u0430\u0441\u0441\u0438\u0444\u0438\u043A\u0430\u0442\u043E\u0440\u0443", "\u0412\u0438\u0434 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u0443\u0447\u0430\u0441\u0442\u043A\u0430 \u043F\u043E \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0443", "\u0420\u0435\u043A\u0432\u0438\u0437\u0438\u0442\u044B \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430, \u0443\u0434\u043E\u0441\u0442\u043E\u0432\u0435\u0440\u044F\u044E\u0449\u0435\u0433\u043E \u0441\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E\u0431 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0438 \u0417\u0423"
+			}
+		));
+		scrollPane_14.setViewportView(table_14);
+		
+		JLabel label_320 = new JLabel("Кадастровые номера объектов недвижимости, расположенных на земельном участке");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_320, 6, SpringLayout.SOUTH, scrollPane_14);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_320, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_320);
+		
+		textField_257 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_257, 6, SpringLayout.SOUTH, scrollPane_14);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_257, 6, SpringLayout.EAST, label_320);
+		panel_18.add(textField_257);
+		textField_257.setColumns(10);
+		
+		JLabel label_321 = new JLabel("6. Сведения об использовании объекта недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_321, 7, SpringLayout.SOUTH, label_320);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_321, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_321);
+		
+		JLabel label_322 = new JLabel("6.1 Лицо, использующее объект недвижимости (владеющее объектом недвижимости)");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_322, 0, SpringLayout.NORTH, label_321);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_322, 14, SpringLayout.EAST, label_321);
+		panel_18.add(label_322);
+		
+		JLabel label_323 = new JLabel("Наименование");
+		panel_18.add(label_323);
+		
+		textField_258 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_258, 6, SpringLayout.SOUTH, label_322);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_258, 6, SpringLayout.EAST, label_323);
+		panel_18.add(textField_258);
+		textField_258.setColumns(10);
+		
+		JLabel label_324 = new JLabel("Основной государственный регистрационный номер (ОГРН)");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_324, 6, SpringLayout.SOUTH, label_321);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_324, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_324);
+		
+		textField_259 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_323, 3, SpringLayout.NORTH, textField_259);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_323, 6, SpringLayout.EAST, textField_259);
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_259, 6, SpringLayout.SOUTH, label_322);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_259, 9, SpringLayout.EAST, label_324);
+		panel_18.add(textField_259);
+		textField_259.setColumns(10);
+		
+		JLabel lblNewLabel_18 = new JLabel("Идентификациооный номер налогоплательщика (ИНН)");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, lblNewLabel_18, 6, SpringLayout.SOUTH, label_324);
+		sl_panel_18.putConstraint(SpringLayout.WEST, lblNewLabel_18, 0, SpringLayout.WEST, label_309);
+		panel_18.add(lblNewLabel_18);
+		
+		textField_260 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_260, 6, SpringLayout.SOUTH, label_324);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_260, 0, SpringLayout.WEST, label_322);
+		panel_18.add(textField_260);
+		textField_260.setColumns(10);
+		
+		JLabel label_325 = new JLabel("Адрес");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_325, 3, SpringLayout.NORTH, textField_260);
+		sl_panel_18.putConstraint(SpringLayout.EAST, label_325, 0, SpringLayout.EAST, label_320);
+		panel_18.add(label_325);
+		
+		textField_261 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_261, 6, SpringLayout.SOUTH, label_323);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_261, 11, SpringLayout.EAST, label_325);
+		panel_18.add(textField_261);
+		textField_261.setColumns(10);
+		
+		JLabel label_326 = new JLabel("Адрес электронной почты");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_326, 0, SpringLayout.NORTH, label_323);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_326, 6, SpringLayout.EAST, textField_258);
+		panel_18.add(label_326);
+		
+		textField_262 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_262, -3, SpringLayout.NORTH, label_323);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_262, 0, SpringLayout.WEST, label_318);
+		panel_18.add(textField_262);
+		textField_262.setColumns(10);
+		
+		JLabel label_327 = new JLabel("Телефон");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_327, 0, SpringLayout.NORTH, label_323);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_327, 16, SpringLayout.EAST, textField_262);
+		panel_18.add(label_327);
+		
+		textField_263 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_263, -3, SpringLayout.NORTH, label_323);
+		sl_panel_18.putConstraint(SpringLayout.EAST, textField_263, 0, SpringLayout.EAST, scrollPane_12);
+		panel_18.add(textField_263);
+		textField_263.setColumns(10);
+		
+		JLabel label_328 = new JLabel("6.2. Лицо, заполнившее декларацию об объекте недвижимости - представитель лица, использующего объект недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_328, 6, SpringLayout.SOUTH, textField_260);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_328, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_328);
+		
+		JLabel label_329 = new JLabel("Реквизиты документа, подтверждающего полномочия представителя заявителя");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_329, 6, SpringLayout.SOUTH, label_328);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_329, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_329);
+		
+		textField_264 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_264, 6, SpringLayout.SOUTH, label_328);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_264, 0, SpringLayout.WEST, textField_253);
+		panel_18.add(textField_264);
+		textField_264.setColumns(10);
+		
+		JLabel label_330 = new JLabel("Должность");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_330, 6, SpringLayout.SOUTH, label_328);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_330, 6, SpringLayout.EAST, textField_264);
+		panel_18.add(label_330);
+		
+		textField_265 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_265, 6, SpringLayout.SOUTH, label_328);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_265, 0, SpringLayout.WEST, label_326);
+		panel_18.add(textField_265);
+		textField_265.setColumns(10);
+		
+		JLabel label_331 = new JLabel("Фамилия");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_331, 0, SpringLayout.NORTH, label_329);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_331, 0, SpringLayout.WEST, textField_251);
+		panel_18.add(label_331);
+		
+		textField_266 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_266, -3, SpringLayout.NORTH, label_329);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_266, 6, SpringLayout.EAST, label_331);
+		panel_18.add(textField_266);
+		textField_266.setColumns(10);
+		
+		JLabel label_332 = new JLabel("Имя");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_332, 0, SpringLayout.NORTH, label_329);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_332, 0, SpringLayout.WEST, label_327);
+		panel_18.add(label_332);
+		
+		textField_267 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_267, -3, SpringLayout.NORTH, label_329);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_267, 6, SpringLayout.EAST, label_332);
+		panel_18.add(textField_267);
+		textField_267.setColumns(10);
+		
+		JLabel label_333 = new JLabel("Отчество");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_333, 0, SpringLayout.NORTH, label_329);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_333, 6, SpringLayout.EAST, textField_267);
+		panel_18.add(label_333);
+		
+		textField_268 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_268, -3, SpringLayout.NORTH, label_328);
+		sl_panel_18.putConstraint(SpringLayout.EAST, textField_268, 0, SpringLayout.EAST, textField_255);
+		panel_18.add(textField_268);
+		textField_268.setColumns(10);
+		
+		JLabel label_334 = new JLabel("Реквизиты документа, удостоверяющего личность");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_334, 6, SpringLayout.SOUTH, label_329);
+		sl_panel_18.putConstraint(SpringLayout.EAST, label_334, 0, SpringLayout.EAST, label_310);
+		panel_18.add(label_334);
+		
+		textField_269 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_269, 6, SpringLayout.SOUTH, label_329);
+		sl_panel_18.putConstraint(SpringLayout.EAST, textField_269, 0, SpringLayout.EAST, textField_252);
+		panel_18.add(textField_269);
+		textField_269.setColumns(10);
+		
+		JLabel label_335 = new JLabel("Почтовый адрес для связи с лицом, заполнившим декларацию об объекте недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_335, 6, SpringLayout.SOUTH, textField_264);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_335, 0, SpringLayout.WEST, label_315);
+		panel_18.add(label_335);
+		
+		textField_270 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_270, 6, SpringLayout.SOUTH, textField_267);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_270, 0, SpringLayout.WEST, label_327);
+		panel_18.add(textField_270);
+		textField_270.setColumns(10);
+		
+		JLabel label_336 = new JLabel("Адрес электронной почты лица, заполнившего декларацию об объекте недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_336, 6, SpringLayout.SOUTH, textField_269);
+		sl_panel_18.putConstraint(SpringLayout.EAST, label_336, 0, SpringLayout.EAST, label_320);
+		panel_18.add(label_336);
+		
+		textField_271 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_271, 6, SpringLayout.SOUTH, label_335);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_271, 0, SpringLayout.WEST, textField_257);
+		panel_18.add(textField_271);
+		textField_271.setColumns(10);
+		
+		JLabel label_337 = new JLabel("Телефон лица, заполнившего декларацию об объекте недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_337, 3, SpringLayout.NORTH, textField_271);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_337, 10, SpringLayout.EAST, textField_271);
+		panel_18.add(label_337);
+		
+		textField_272 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_272, -3, SpringLayout.NORTH, label_336);
+		sl_panel_18.putConstraint(SpringLayout.WEST, textField_272, 19, SpringLayout.EAST, label_337);
+		panel_18.add(textField_272);
+		textField_272.setColumns(10);
+		
+		JLabel label_338 = new JLabel("6.3 Документы - основания владения или использования объектом недвижимости");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_338, 6, SpringLayout.SOUTH, label_336);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_338, 0, SpringLayout.WEST, panel_18);
+		panel_18.add(label_338);
+		
+		JScrollPane scrollPane_15 = new JScrollPane();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, scrollPane_15, 6, SpringLayout.SOUTH, label_338);
+		sl_panel_18.putConstraint(SpringLayout.WEST, scrollPane_15, 10, SpringLayout.WEST, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.SOUTH, scrollPane_15, 53, SpringLayout.SOUTH, label_338);
+		sl_panel_18.putConstraint(SpringLayout.EAST, scrollPane_15, 640, SpringLayout.WEST, panel_18);
+		panel_18.add(scrollPane_15);
+		
+		table_15 = new JTable();
+		table_15.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null, null},
+			},
+			new String[] {
+				"\u041D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430", "\u0420\u0435\u043A\u0432\u0438\u0437\u0438\u0442\u044B \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430"
+			}
+		));
+		scrollPane_15.setViewportView(table_15);
+		
+		JLabel label_339 = new JLabel("Вид права");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_339, 19, SpringLayout.SOUTH, scrollPane_15);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_339, 0, SpringLayout.WEST, label_309);
+		panel_18.add(label_339);
+		
+		JComboBox comboBox_25 = new JComboBox();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, comboBox_25, -3, SpringLayout.NORTH, label_339);
+		sl_panel_18.putConstraint(SpringLayout.WEST, comboBox_25, 6, SpringLayout.EAST, label_339);
+		comboBox_25.setModel(new DefaultComboBoxModel(new String[] {"Собственность Российской Федерации", "Общая долевая собственность с участием Российской Федерации"}));
+		panel_18.add(comboBox_25);
+		
+		JLabel label_340 = new JLabel("(выберите значение из списка)");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_340, 6, SpringLayout.SOUTH, comboBox_25);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_340, 173, SpringLayout.WEST, panel_18);
+		panel_18.add(label_340);
+		
+		JLabel label_341 = new JLabel("Доля в праве");
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_341, 0, SpringLayout.WEST, textField_258);
+		sl_panel_18.putConstraint(SpringLayout.SOUTH, label_341, 0, SpringLayout.SOUTH, label_339);
+		panel_18.add(label_341);
+		
+		textField_273 = new JTextField();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, textField_273, 0, SpringLayout.NORTH, label_339);
+		sl_panel_18.putConstraint(SpringLayout.EAST, textField_273, 0, SpringLayout.EAST, label_328);
+		panel_18.add(textField_273);
+		textField_273.setColumns(10);
+		
+		JLabel label_342 = new JLabel("8. Приложение");
+		sl_panel_18.putConstraint(SpringLayout.NORTH, label_342, 0, SpringLayout.NORTH, label_340);
+		sl_panel_18.putConstraint(SpringLayout.WEST, label_342, 0, SpringLayout.WEST, textField_253);
+		panel_18.add(label_342);
+		
+		JScrollPane scrollPane_16 = new JScrollPane();
+		sl_panel_18.putConstraint(SpringLayout.NORTH, scrollPane_16, 6, SpringLayout.SOUTH, label_340);
+		sl_panel_18.putConstraint(SpringLayout.WEST, scrollPane_16, 10, SpringLayout.WEST, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.SOUTH, scrollPane_16, -10, SpringLayout.SOUTH, panel_18);
+		sl_panel_18.putConstraint(SpringLayout.EAST, scrollPane_16, 972, SpringLayout.WEST, panel_18);
+		panel_18.add(scrollPane_16);
+		
+		table_16 = new JTable();
+		table_16.setModel(new DefaultTableModel(
+			new Object[][] {
+				{null},
+			},
+			new String[] {
+				"\u041D\u0430\u0438\u043C\u0435\u043D\u043E\u0432\u0430\u043D\u0438\u0435 \u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0430"
+			}
+		));
+		scrollPane_16.setViewportView(table_16);
 		
 		JPanel panel_19 = new JPanel();
 		tabbedPane.addTab("XML", null, panel_19, null);
