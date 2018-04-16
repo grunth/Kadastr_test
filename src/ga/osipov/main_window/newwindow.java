@@ -313,6 +313,8 @@ public class newwindow {
 	private JTable table_15;
 	private JTextField textField_273;
 	private JTable table_16;
+	private JTextField textField_274;
+	public String filepath;
 	
 	/**
 	 * Launch the application.
@@ -341,6 +343,7 @@ public class newwindow {
 	 * Initialize the contents of the frame.
 	 */
 	private void initialize() {
+		
 		
 		
 		
@@ -5449,6 +5452,23 @@ public class newwindow {
 		
 		JPanel panel_19 = new JPanel();
 		tabbedPane.addTab("XML", null, panel_19, null);
+		SpringLayout sl_panel_19 = new SpringLayout();
+		panel_19.setLayout(sl_panel_19);
+		
+		JLabel lblXml = new JLabel("Путь сохранения XML файла");
+		sl_panel_19.putConstraint(SpringLayout.NORTH, lblXml, 10, SpringLayout.NORTH, panel_19);
+		sl_panel_19.putConstraint(SpringLayout.WEST, lblXml, 10, SpringLayout.WEST, panel_19);
+		panel_19.add(lblXml);
+		
+		textField_274 = new JTextField();
+		sl_panel_19.putConstraint(SpringLayout.NORTH, textField_274, 10, SpringLayout.NORTH, panel_19);
+		sl_panel_19.putConstraint(SpringLayout.WEST, textField_274, 6, SpringLayout.EAST, lblXml);
+		sl_panel_19.putConstraint(SpringLayout.EAST, textField_274, 753, SpringLayout.EAST, lblXml);
+		panel_19.add(textField_274);
+		textField_274.setColumns(10);
+		textField_274.setText("D:/eclipse-workspace/kadastr/students.xml");
+		filepath = textField_274.getText();
+		
 		
 		JButton btnXml = new JButton("\u0421\u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u0442\u044C XML");
 		springLayout.putConstraint(SpringLayout.SOUTH, btnXml, -10, SpringLayout.SOUTH, frmvb.getContentPane());
