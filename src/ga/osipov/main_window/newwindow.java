@@ -20,7 +20,7 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.DefaultComboBoxModel;
 
 public class newwindow {
-
+//asd
 	private JFrame frmvb;
 	private JTextField textField;
 	private JTextField textField_1;
