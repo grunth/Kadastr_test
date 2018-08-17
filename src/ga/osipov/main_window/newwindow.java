@@ -17,6 +17,9 @@ import javax.swing.JTextField;
 import javax.swing.SpringLayout;
 import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableModel;
+
+import ga.osipov.xml_create.XmlFileCreator;
+
 import javax.swing.DefaultComboBoxModel;
 
 public class newwindow {
@@ -5470,7 +5473,15 @@ public class newwindow {
 		filepath = textField_274.getText();
 		
 		
-		JButton btnXml = new JButton("\u0421\u0444\u043E\u0440\u043C\u0438\u0440\u043E\u0432\u0430\u0442\u044C XML");
+		JButton btnXml = new JButton("Сформировать XML");
+		btnXml.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				XmlFileCreator myXML = new XmlFileCreator();
+				myXML.create(textField_66.getText());
+				
+				
+			}
+		});
 		springLayout.putConstraint(SpringLayout.SOUTH, btnXml, -10, SpringLayout.SOUTH, frmvb.getContentPane());
 		springLayout.putConstraint(SpringLayout.EAST, btnXml, -484, SpringLayout.EAST, frmvb.getContentPane());
 		frmvb.getContentPane().add(btnXml);
