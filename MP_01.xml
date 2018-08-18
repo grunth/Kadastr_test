@@ -1,0 +1,35 @@
+<MP GUID="29fd5fa8-4334-4dbe-b027-294cc2505bbd" Version="06" NameSoftware="Полигон: Межевой план" VersionSoftware="7.6.7">
+    <Package>
+        <FormParcels Method="3">
+            <NewParcel Definition="">
+                <CadastralBlock>test</CadastralBlock>
+                <PrevCadastralNumbers>
+                    <CadastralNumber>test</CadastralNumber>
+                </PrevCadastralNumbers>
+                <ProvidingPassCadastralNumbers>
+                    <Other>test</Other>
+                </ProvidingPassCadastralNumbers>
+                <ObjectRealty>
+                    <InnerCadastralNumbers>
+                        <CadastralNumber>test</CadastralNumber>
+                    </InnerCadastralNumbers>
+                </ObjectRealty>
+                <Area>
+                    <Area>33</Area>
+                    <Unit>1</Unit>
+                    <Inaccuracy>1</Inaccuracy>
+                </Area>
+                <Address>
+                    <OKATO>test</OKATO>
+                    <KLADR>test</KLADR>
+                    <Region>test</Region>
+                    <District Name="test" Type="АО"/>
+                    <City Name="test" Type="волость"/>
+                    <Locality Name="test" Type="аал"/>
+                    <Street Name="test" Type="а/я"/>
+                    <Level1 Type="бокс" Value="test"/>
+                </Address>
+            </NewParcel>
+        </FormParcels>
+    </Package>
+</MP>
