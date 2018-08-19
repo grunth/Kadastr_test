@@ -29,9 +29,17 @@ import XML.MP_v06.MP.GeneralCadastralWorks;
 import XML.MP_v06.MP.InputData;
 import XML.MP_v06.MP.InputData.SubParcels;
 import XML.MP_v06.MP.NodalPointSchemes;
+import XML.MP_v06.MP.NodalPointSchemes.NodalPointScheme;
 import XML.MP_v06.MP.Package;
 import XML.MP_v06.MP.Package.FormParcels;
 import XML.MP_v06.MP.Survey;
+import XML.MP_v06.MP.Survey.GeopointsOpred;
+import XML.MP_v06.MP.Survey.GeopointsOpred.GeopointOpred;
+import XML.MP_v06.MP.Survey.GeopointsOpred.GeopointOpred.Methods;
+import XML.MP_v06.MP.Survey.TochnAreaParcels;
+import XML.MP_v06.MP.Survey.TochnAreaSubParcels;
+import XML.MP_v06.MP.Survey.TochnGeopointsParcels;
+import XML.MP_v06.MP.Survey.TochnGeopointsSubParcels;
 import XML.MP_v06.TAppendix;
 import XML.MP_v06.TAppendix.AppliedFiles;
 import XML.MP_v06.TAppliedFile;
@@ -57,29 +65,30 @@ import javax.xml.datatype.DatatypeFactory;
 public class XmlFileCreator {
 	//группировка вставляемых значений классов в родительском классе MP в доступный массив
 	public String[][] arr_mp={
-			{"Name","Kind"},
-			{"Name","Kind"},
-			{"Name","Kind"},
-			{"Name","Kind"}
+			{"Name1","Kind1"},
+			{"Name2","Kind2"},
+			{"Name3","Kind3"},
+			{"Name4","Kind4"}
 	};
 	//группировка вставляемых значений классов в родительском классе Appendix в доступный массив
 	public String[][][] arr_Appendix={		
 	{
 		{"1"},
-		{"text"},
-		{"Kind","Name"}
+		{"text1"},
+		{"Kind1","Name1"}
 	},
 	{
 		{"1"},
-		{"text"},
-		{"Kind","Name"}
+		{"text2"},
+		{"Kind2","Name2"}
 	},
 	{
 		{"1"},
-		{"text"},
-		{"Kind","Name"}
+		{"text3"},
+		{"Kind3","Name3"}
 	}
 	};
+	public String[]arr_NodalPointScheme= {"Definition","Name","Kind"};
 	static DATA_Values vs=new DATA_Values();	
 	
 	//открытие файла
@@ -94,6 +103,43 @@ public class XmlFileCreator {
 		    ioe.printStackTrace();
 		}
 	}
+	public String[][]arr_GeopointsOpred= {
+			{"CadastralNumberDefinition1","GeopointOpred1"},
+			{"CadastralNumberDefinition2","GeopointOpred2"},
+			{"CadastralNumberDefinition3","GeopointOpred3"},
+			{"CadastralNumberDefinition4","GeopointOpred4"},
+			{"CadastralNumberDefinition5","GeopointOpred5"}
+			};
+	public void fun_node_Survey(MP v) {
+		Survey s=new Survey();
+		GeopointsOpred geo=new GeopointsOpred();
+		for (int i=0;i<arr_GeopointsOpred.length;i++) {
+			GeopointOpred e=new GeopointOpred();
+			e.setCadastralNumberDefinition(arr_GeopointsOpred[i][0]);
+			
+			Methods m=new Methods();
+			m.setGeopointOpred(arr_GeopointsOpred[i][1]);
+			e.getMethods().add(m);
+			geo.getGeopointOpred().add(e);
+		}
+		
+		s.setGeopointsOpred(geo);
+		
+		TochnGeopointsParcels tgp=new TochnGeopointsParcels();
+		s.setTochnGeopointsParcels(tgp);
+		
+		TochnGeopointsSubParcels stgp=new TochnGeopointsSubParcels();
+		s.setTochnGeopointsSubParcels(stgp);
+		
+		TochnAreaParcels tap=new TochnAreaParcels();
+		s.setTochnAreaParcels(tap);
+		
+		TochnAreaSubParcels tasp=new TochnAreaSubParcels();
+		s.setTochnAreaSubParcels(tasp);
+		
+		v.setSurvey(s);
+	}
+	
 	public TAppendix fun_node_Appendix() {
 		TAppendix v=new TAppendix();
 		
@@ -106,8 +152,8 @@ public class XmlFileCreator {
 			afs.setNameAppendix(arr_Appendix[i][1][0]);	
 			
 			TAppliedFile af=new TAppliedFile();
-			af.setKind(arr_Appendix[i][2][0]+i);
-			af.setName(arr_Appendix[i][2][1]+i);
+			af.setKind(arr_Appendix[i][2][0]);
+			af.setName(arr_Appendix[i][2][1]);
 			afs.setAppliedFile(af);
 			
 			v.getAppliedFiles().add(afs);
@@ -132,13 +178,15 @@ public class XmlFileCreator {
 		Survey v4=new Survey();
 		v.setSurvey(v4); 
 		
+		fun_node_Survey(v);
+		
 		String v5=vs.Conclusion;
 		v.setConclusion(v5);
 		
 		TAppliedFilePDF x=new TAppliedFilePDF();
-		for (int i=0;i<arr_mp.length;i++) {		
-		    x.setName(arr_mp[i][0]+i); 
-		    x.setKind(arr_mp[i][1]+i); 
+		for (int i=0;i<arr_mp.length;i++) {	
+			x.setKind(arr_mp[i][1]+i);
+		    x.setName(arr_mp[i][0]+i);  
 		    switch (i) {
 			case 0:v.setSchemeGeodesicPlotting(x);break;
 			case 1:v.setSchemeDisposition(x);break;
@@ -150,6 +198,16 @@ public class XmlFileCreator {
 		}
 			
 		NodalPointSchemes v11=new NodalPointSchemes();
+		
+		NodalPointScheme arg0=new NodalPointScheme();
+		
+		
+		TAppliedFilePDF af0=new TAppliedFilePDF();
+		af0.setName(arr_NodalPointScheme[1]);
+		af0.setKind(arr_NodalPointScheme[2]);
+		arg0.setAppliedFile(af0);
+		arg0.setDefinition(arr_NodalPointScheme[0]);
+		v11.getNodalPointScheme().add(arg0);
 		v.setNodalPointSchemes(v11);
 		
 		v.setAppendix(fun_node_Appendix());

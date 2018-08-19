@@ -46,13 +46,54 @@
     <GeneralCadastralWorks DateCadastral="2018-08-19+03:00"/>
     <CoordSystems/>
     <InputData/>
-    <Survey/>
+    <Survey>
+        <GeopointsOpred>
+            <GeopointOpred>
+                <CadastralNumberDefinition>CadastralNumberDefinition</CadastralNumberDefinition>
+                <Methods>
+                    <GeopointOpred>GeopointOpred</GeopointOpred>
+                </Methods>
+            </GeopointOpred>
+            <GeopointOpred>
+                <CadastralNumberDefinition>CadastralNumberDefinition</CadastralNumberDefinition>
+                <Methods>
+                    <GeopointOpred>GeopointOpred</GeopointOpred>
+                </Methods>
+            </GeopointOpred>
+            <GeopointOpred>
+                <CadastralNumberDefinition>CadastralNumberDefinition</CadastralNumberDefinition>
+                <Methods>
+                    <GeopointOpred>GeopointOpred</GeopointOpred>
+                </Methods>
+            </GeopointOpred>
+            <GeopointOpred>
+                <CadastralNumberDefinition>CadastralNumberDefinition</CadastralNumberDefinition>
+                <Methods>
+                    <GeopointOpred>GeopointOpred</GeopointOpred>
+                </Methods>
+            </GeopointOpred>
+            <GeopointOpred>
+                <CadastralNumberDefinition>CadastralNumberDefinition</CadastralNumberDefinition>
+                <Methods>
+                    <GeopointOpred>GeopointOpred</GeopointOpred>
+                </Methods>
+            </GeopointOpred>
+        </GeopointsOpred>
+        <TochnGeopointsParcels/>
+        <TochnGeopointsSubParcels/>
+        <TochnAreaParcels/>
+        <TochnAreaSubParcels/>
+    </Survey>
     <Conclusion>test</Conclusion>
     <SchemeGeodesicPlotting Kind="Kind3" Name="Name3"/>
     <SchemeDisposition Kind="Kind3" Name="Name3"/>
     <DiagramParcelsSubParcels Kind="Kind3" Name="Name3"/>
     <AgreementDocument Kind="Kind3" Name="Name3"/>
-    <NodalPointSchemes/>
+    <NodalPointSchemes>
+        <NodalPointScheme Definition="Definition">
+            <AppliedFile Kind="Kind" Name="Name"/>
+        </NodalPointScheme>
+    </NodalPointSchemes>
     <Appendix>
         <AppliedFiles>
             <NumberAppendix>1</NumberAppendix>
