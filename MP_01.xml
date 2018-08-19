@@ -15,7 +15,7 @@
                     </InnerCadastralNumbers>
                 </ObjectRealty>
                 <Area>
-                    <Area>33</Area>
+                    <Area>1</Area>
                     <Unit>1</Unit>
                     <Inaccuracy>1</Inaccuracy>
                 </Area>
@@ -29,7 +29,45 @@
                     <Street Name="test" Type="а/я"/>
                     <Level1 Type="бокс" Value="test"/>
                 </Address>
+                <Category Category="test"/>
+                <Utilization ByDoc="test"/>
+                <SubParcels>
+                    <NewSubParcel Definition="test">
+                        <Area>
+                            <Area>1</Area>
+                            <Unit>1</Unit>
+                            <Inaccuracy>1</Inaccuracy>
+                        </Area>
+                    </NewSubParcel>
+                </SubParcels>
             </NewParcel>
         </FormParcels>
     </Package>
+    <GeneralCadastralWorks DateCadastral="2018-08-19+03:00"/>
+    <CoordSystems/>
+    <InputData/>
+    <Survey/>
+    <Conclusion>test</Conclusion>
+    <SchemeGeodesicPlotting Kind="Kind3" Name="Name3"/>
+    <SchemeDisposition Kind="Kind3" Name="Name3"/>
+    <DiagramParcelsSubParcels Kind="Kind3" Name="Name3"/>
+    <AgreementDocument Kind="Kind3" Name="Name3"/>
+    <NodalPointSchemes/>
+    <Appendix>
+        <AppliedFiles>
+            <NumberAppendix>1</NumberAppendix>
+            <NameAppendix>text</NameAppendix>
+            <AppliedFile Kind="Kind0" Name="Name0"/>
+        </AppliedFiles>
+        <AppliedFiles>
+            <NumberAppendix>1</NumberAppendix>
+            <NameAppendix>text</NameAppendix>
+            <AppliedFile Kind="Kind1" Name="Name1"/>
+        </AppliedFiles>
+        <AppliedFiles>
+            <NumberAppendix>1</NumberAppendix>
+            <NameAppendix>text</NameAppendix>
+            <AppliedFile Kind="Kind2" Name="Name2"/>
+        </AppliedFiles>
+    </Appendix>
 </MP>
