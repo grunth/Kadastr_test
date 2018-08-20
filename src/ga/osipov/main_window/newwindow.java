@@ -25,11 +25,11 @@ import javax.swing.DefaultComboBoxModel;
 public class newwindow {
 //asd
 	private JFrame frmvb;
-	private JTextField textField;
-	private JTextField textField_1;
-	private JTextField textField_2;
-	private JTextField textField_3;
-	private JTextField textField_4;
+	private JTextField textField_Purpose;
+	private JTextField textField_FamilyName;
+	private JTextField textField_FirstName;
+	private JTextField textField_Patronymic;
+	private JTextField textField_SNILS;
 	private JTextField textField_5;
 	private JTextField textField_6;
 	private JTextField textField_7;
@@ -318,6 +318,7 @@ public class newwindow {
 	private JTable table_16;
 	private JTextField textField_274;
 	public String filepath;
+	private JTextField textField_Reason;
 	
 	/**
 	 * Launch the application.
@@ -1245,41 +1246,32 @@ public class newwindow {
 		SpringLayout sl_panel = new SpringLayout();
 		panel.setLayout(sl_panel);
 		
-		JLabel lblNewLabel = new JLabel("<html>*1.\u041C\u0435\u0436\u0435\u0432\u043E\u0439 \u043F\u043B\u0430\u043D \u043F\u043E\u0434\u0433\u043E\u0442\u043E\u0432\u043B\u0435\u043D \u0432 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442\u0435 <br>\u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u044F \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0445 \u0440\u0430\u0431\u043E\u0442 \u0432 \u0441\u0432\u044F\u0437\u0438 \u0441:</html>");
+		JLabel lblNewLabel = new JLabel("! 1. Межевой план подготовлен в результате выполнения кадастровых работ в связи с:");
 		sl_panel.putConstraint(SpringLayout.NORTH, lblNewLabel, 13, SpringLayout.NORTH, panel);
 		sl_panel.putConstraint(SpringLayout.WEST, lblNewLabel, 10, SpringLayout.WEST, panel);
 		sl_panel.putConstraint(SpringLayout.EAST, lblNewLabel, -793, SpringLayout.EAST, panel);
 		panel.add(lblNewLabel);
-		
-		JComboBox comboBox = new JComboBox(MegTitul);
-		sl_panel.putConstraint(SpringLayout.EAST, comboBox, -201, SpringLayout.EAST, panel);
-		sl_panel.putConstraint(SpringLayout.SOUTH, comboBox, -668, SpringLayout.SOUTH, panel);
-		sl_panel.putConstraint(SpringLayout.NORTH, comboBox, 14, SpringLayout.NORTH, panel);
-		sl_panel.putConstraint(SpringLayout.WEST, comboBox, 290, SpringLayout.WEST, panel);
-		panel.add(comboBox);
-		
-		comboBox.setEditable(true);
 		
 		JLabel label = new JLabel("*\u0421\u043F\u043E\u0441\u043E\u0431 \u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u0438\u044F \u0443\u0447\u0430\u0441\u0442\u043A\u0430 (\u043E\u0432)");
 		sl_panel.putConstraint(SpringLayout.NORTH, label, 11, SpringLayout.SOUTH, lblNewLabel);
 		sl_panel.putConstraint(SpringLayout.WEST, label, 0, SpringLayout.WEST, lblNewLabel);
 		panel.add(label);
 		
-		JComboBox comboBox_1 = new JComboBox(SposobTitul);
-		sl_panel.putConstraint(SpringLayout.NORTH, comboBox_1, -3, SpringLayout.NORTH, label);
-		panel.add(comboBox_1);
+		JComboBox comboBox_FormParcelsMethod = new JComboBox(SposobTitul);
+		sl_panel.putConstraint(SpringLayout.NORTH, comboBox_FormParcelsMethod, -3, SpringLayout.NORTH, label);
+		panel.add(comboBox_FormParcelsMethod);
 		
 		JLabel label_1 = new JLabel("\u0426\u0435\u043B\u044C \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0445 \u0440\u0430\u0431\u043E\u0442");
 		sl_panel.putConstraint(SpringLayout.NORTH, label_1, 26, SpringLayout.SOUTH, label);
 		sl_panel.putConstraint(SpringLayout.WEST, label_1, 0, SpringLayout.WEST, lblNewLabel);
 		panel.add(label_1);
 		
-		textField = new JTextField();
-		sl_panel.putConstraint(SpringLayout.NORTH, textField, -3, SpringLayout.NORTH, label_1);
-		sl_panel.putConstraint(SpringLayout.WEST, textField, 33, SpringLayout.EAST, label_1);
-		sl_panel.putConstraint(SpringLayout.EAST, textField, -127, SpringLayout.EAST, panel);
-		panel.add(textField);
-		textField.setColumns(10);
+		textField_Purpose = new JTextField();
+		sl_panel.putConstraint(SpringLayout.NORTH, textField_Purpose, -3, SpringLayout.NORTH, label_1);
+		sl_panel.putConstraint(SpringLayout.WEST, textField_Purpose, 33, SpringLayout.EAST, label_1);
+		sl_panel.putConstraint(SpringLayout.EAST, textField_Purpose, -127, SpringLayout.EAST, panel);
+		panel.add(textField_Purpose);
+		textField_Purpose.setColumns(10);
 		
 		JLabel label_2 = new JLabel("*3.\u0421\u0432\u0435\u0434\u0435\u043D\u0438\u044F \u043E \u0437\u0430\u043A\u0430\u0437\u0447\u0438\u043A\u0435 \u043A\u0430\u0434\u0430\u0441\u0442\u0440\u043E\u0432\u044B\u0445 \u0440\u0430\u0431\u043E\u0442:");
 		sl_panel.putConstraint(SpringLayout.NORTH, label_2, 6, SpringLayout.SOUTH, label_1);
@@ -1296,33 +1288,33 @@ public class newwindow {
 		sl_panel.putConstraint(SpringLayout.WEST, label_4, 111, SpringLayout.WEST, panel);
 		panel.add(label_4);
 		
-		textField_1 = new JTextField();
-		sl_panel.putConstraint(SpringLayout.NORTH, textField_1, 6, SpringLayout.SOUTH, label_2);
-		sl_panel.putConstraint(SpringLayout.WEST, textField_1, 27, SpringLayout.EAST, label_3);
-		panel.add(textField_1);
-		textField_1.setColumns(10);
+		textField_FamilyName = new JTextField();
+		sl_panel.putConstraint(SpringLayout.NORTH, textField_FamilyName, 6, SpringLayout.SOUTH, label_2);
+		sl_panel.putConstraint(SpringLayout.WEST, textField_FamilyName, 27, SpringLayout.EAST, label_3);
+		panel.add(textField_FamilyName);
+		textField_FamilyName.setColumns(10);
 		
 		JLabel label_5 = new JLabel("\u0418\u043C\u044F");
 		sl_panel.putConstraint(SpringLayout.NORTH, label_5, 0, SpringLayout.NORTH, label_4);
 		sl_panel.putConstraint(SpringLayout.WEST, label_5, 97, SpringLayout.EAST, label_4);
 		panel.add(label_5);
 		
-		textField_2 = new JTextField();
-		sl_panel.putConstraint(SpringLayout.WEST, comboBox_1, 0, SpringLayout.WEST, textField_2);
-		sl_panel.putConstraint(SpringLayout.WEST, textField_2, 32, SpringLayout.EAST, textField_1);
-		sl_panel.putConstraint(SpringLayout.SOUTH, textField_2, -1, SpringLayout.NORTH, label_5);
-		sl_panel.putConstraint(SpringLayout.EAST, textField_2, 141, SpringLayout.EAST, textField_1);
-		panel.add(textField_2);
-		textField_2.setColumns(10);
+		textField_FirstName = new JTextField();
+		sl_panel.putConstraint(SpringLayout.WEST, comboBox_FormParcelsMethod, 0, SpringLayout.WEST, textField_FirstName);
+		sl_panel.putConstraint(SpringLayout.WEST, textField_FirstName, 32, SpringLayout.EAST, textField_FamilyName);
+		sl_panel.putConstraint(SpringLayout.SOUTH, textField_FirstName, -1, SpringLayout.NORTH, label_5);
+		sl_panel.putConstraint(SpringLayout.EAST, textField_FirstName, 141, SpringLayout.EAST, textField_FamilyName);
+		panel.add(textField_FirstName);
+		textField_FirstName.setColumns(10);
 		
-		textField_3 = new JTextField();
-		sl_panel.putConstraint(SpringLayout.NORTH, textField_3, 0, SpringLayout.NORTH, label_3);
-		sl_panel.putConstraint(SpringLayout.WEST, textField_3, 29, SpringLayout.EAST, textField_2);
-		panel.add(textField_3);
-		textField_3.setColumns(10);
+		textField_Patronymic = new JTextField();
+		sl_panel.putConstraint(SpringLayout.NORTH, textField_Patronymic, 0, SpringLayout.NORTH, label_3);
+		sl_panel.putConstraint(SpringLayout.WEST, textField_Patronymic, 29, SpringLayout.EAST, textField_FirstName);
+		panel.add(textField_Patronymic);
+		textField_Patronymic.setColumns(10);
 		
 		JLabel label_6 = new JLabel("\u041E\u0442\u0447\u0435\u0441\u0442\u0432\u043E (\u043F\u0440\u0438 \u043D\u0430\u043B\u0438\u0447\u0438\u0438)");
-		sl_panel.putConstraint(SpringLayout.NORTH, label_6, 11, SpringLayout.SOUTH, textField_3);
+		sl_panel.putConstraint(SpringLayout.NORTH, label_6, 11, SpringLayout.SOUTH, textField_Patronymic);
 		sl_panel.putConstraint(SpringLayout.WEST, label_6, 59, SpringLayout.EAST, label_5);
 		panel.add(label_6);
 		
@@ -1331,12 +1323,12 @@ public class newwindow {
 		sl_panel.putConstraint(SpringLayout.WEST, label_7, 130, SpringLayout.EAST, label_6);
 		panel.add(label_7);
 		
-		textField_4 = new JTextField();
-		sl_panel.putConstraint(SpringLayout.NORTH, textField_4, 0, SpringLayout.NORTH, label_3);
-		sl_panel.putConstraint(SpringLayout.WEST, textField_4, 109, SpringLayout.EAST, textField_3);
-		sl_panel.putConstraint(SpringLayout.EAST, textField_4, 247, SpringLayout.EAST, textField_3);
-		panel.add(textField_4);
-		textField_4.setColumns(10);
+		textField_SNILS = new JTextField();
+		sl_panel.putConstraint(SpringLayout.NORTH, textField_SNILS, 0, SpringLayout.NORTH, label_3);
+		sl_panel.putConstraint(SpringLayout.WEST, textField_SNILS, 109, SpringLayout.EAST, textField_Patronymic);
+		sl_panel.putConstraint(SpringLayout.EAST, textField_SNILS, 247, SpringLayout.EAST, textField_Patronymic);
+		panel.add(textField_SNILS);
+		textField_SNILS.setColumns(10);
 		
 		JLabel label_8 = new JLabel("\u041E\u0440\u0433\u0430\u043D\u0438\u0437\u0430\u0446\u0438\u044F:");
 		sl_panel.putConstraint(SpringLayout.NORTH, label_8, 31, SpringLayout.SOUTH, label_3);
@@ -1467,7 +1459,7 @@ public class newwindow {
 		textField_14 = new JTextField();
 		sl_panel.putConstraint(SpringLayout.EAST, label_20, -6, SpringLayout.WEST, textField_14);
 		sl_panel.putConstraint(SpringLayout.WEST, textField_14, 407, SpringLayout.WEST, panel);
-		sl_panel.putConstraint(SpringLayout.EAST, textField_14, 0, SpringLayout.EAST, textField);
+		sl_panel.putConstraint(SpringLayout.EAST, textField_14, 0, SpringLayout.EAST, textField_Purpose);
 		sl_panel.putConstraint(SpringLayout.NORTH, textField_14, 6, SpringLayout.SOUTH, textField_11);
 		panel.add(textField_14);
 		textField_14.setColumns(10);
@@ -1480,7 +1472,7 @@ public class newwindow {
 		textField_15 = new JTextField();
 		sl_panel.putConstraint(SpringLayout.NORTH, textField_15, -3, SpringLayout.NORTH, lblEmail);
 		sl_panel.putConstraint(SpringLayout.WEST, textField_15, 6, SpringLayout.EAST, lblEmail);
-		sl_panel.putConstraint(SpringLayout.EAST, textField_15, 0, SpringLayout.EAST, textField_1);
+		sl_panel.putConstraint(SpringLayout.EAST, textField_15, 0, SpringLayout.EAST, textField_FamilyName);
 		panel.add(textField_15);
 		textField_15.setColumns(10);
 		
@@ -1516,6 +1508,14 @@ public class newwindow {
 		sl_panel.putConstraint(SpringLayout.WEST, textField_18, 17, SpringLayout.EAST, label_23);
 		panel.add(textField_18);
 		textField_18.setColumns(10);
+		
+		textField_Reason = new JTextField();
+		sl_panel.putConstraint(SpringLayout.NORTH, textField_Reason, 0, SpringLayout.NORTH, lblNewLabel);
+		sl_panel.putConstraint(SpringLayout.WEST, textField_Reason, 6, SpringLayout.EAST, lblNewLabel);
+		sl_panel.putConstraint(SpringLayout.SOUTH, textField_Reason, 0, SpringLayout.SOUTH, lblNewLabel);
+		sl_panel.putConstraint(SpringLayout.EAST, textField_Reason, 250, SpringLayout.EAST, textField_5);
+		panel.add(textField_Reason);
+		textField_Reason.setColumns(10);
 		
 		JPanel panel_5 = new JPanel();
 		tabbedPane.addTab("Измененные", null, panel_5, null);
@@ -5493,11 +5493,11 @@ public class newwindow {
 			public void actionPerformed(ActionEvent arg0) {
 				String comboBoxString="образованием двух земельных участков путем раздела земельного участка с кадастровым номером 50:20:0010203:156, расположенного по адресу: обл. Московская, р-н Одинцовский, гп Одинцово, с. Ромашково, ул. Каширина, дом 15а";
 				comboBox.setSelectedItem(comboBoxString);
-				comboBox_1.setSelectedIndex(2);
-				textField_1.setText("Иванов");
-				textField_2.setText("Иван");
-				textField_3.setText("Иванович");
-				textField_4.setText("СНИЛС 12345678901");
+				comboBox_FormParcelsMethod.setSelectedIndex(2);
+				textField_FamilyName.setText("Иванов");
+				textField_FirstName.setText("Иван");
+				textField_Patronymic.setText("Иванович");
+				textField_SNILS.setText("СНИЛС 12345678901");
 				textField_9.setText("Сидоров");
 				textField_10.setText("Петр");
 				textField_11.setText("Иванович");
